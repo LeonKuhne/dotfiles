@@ -1,0 +1,26 @@
+#
+# ~/.startup
+#
+
+# set background image
+# TODO
+
+# set keyboard rate
+xset r rate 120 13
+
+# enable redshift (dim brightness)
+redshift -l 43.79924:-72.1228 &
+
+# setup/configure
+cd 			# setup directory
+PS1='\u.\h \W> '	# bash prompt
+xrdb ~/.Xresources	# reload urxvt config
+
+# midi
+pkill -f tools/
+nohup python ~/tools/transparent_win.py &
+nohup python ~/tools/midi.py &
+
+# startup script
+espeak -v en-wi -p0 -k20 -z "welcome Mr $(whoami)"
+
