@@ -16,6 +16,7 @@ xset r rate 120 13
 alias cc='clear'
 alias ls='ls --color=auto'
 alias showkey='sudo showkey'
+alias gdiff="git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'"
 
 function reach(){
 	if [ "$1" = "hell" ]; then

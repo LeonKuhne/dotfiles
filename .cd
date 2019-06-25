@@ -5,7 +5,7 @@ echo -e "\e[90;48;5;223m .\xf3_   \e[35mWelcome home!\e[32m \xf0 \e[90m \xF0\x9F
 # show diff files
 git status -s
 echo -en "\e[38;5;172m"
-git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'
+gdiff
 echo -en $RESET
 
 echo -e "\e[38;5;8m"
