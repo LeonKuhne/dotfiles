@@ -13,10 +13,12 @@ echo "right special+s is the insert key - shift insert is paste"
 echo "use ncdu to view files and their sizes"
 echo "use 'geet', 'c', and 'md'"
 echo "'cd -' let you go back to the prev directory"
+echo "'plog' to view hidden process stdout"
 echo -en $RESET
 
 echo -e "\e[38;5;60m"
 echo "finish up 'imagetoday' tool; last time ran out of usage requests"
 echo "get .startup to set xrat"
 echo "vim, make cursor wide when in view mode"
+echo "make nano slider adjust gamma/brightness"
 echo -en $RESET

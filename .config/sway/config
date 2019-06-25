@@ -10,8 +10,6 @@
 
 ### Variables
 
-set $TOOLS_DIR "~/tools/"
-
 # Logo key. Use Mod1 for Alt.
 set $mod Mod1
 
@@ -70,13 +68,14 @@ output HDMI-A-1 resolution 1440x900 position 1920,880
     # reload the configuration file
     bindsym $mod+Shift+r reload
 
+    # Custom Tool Binds
     # offer dmenu for...
     # selecting workspace
-    bindcode 105 exec --no-startup-id /home/x/tools/adv_workspace.sh select
+    bindcode 105 exec --no-startup-id /home/x/.tools/adv_workspace.sh select
     # renaming workspace
-    bindsym $mod+Delete exec --no-startup-id /home/x/tools/adv_workspace.sh rename
+    bindsym $mod+Delete exec --no-startup-id /home/x/.tools/adv_workspace.sh rename
     # move workspace
-    bindsym $mod+m exec --no-startup-id /home/x/tools/adv_workspace.sh move
+    bindsym $mod+m exec --no-startup-id /home/x/.tools/adv_workspace.sh move
 
     # media controls (these are different from what showkey gives)
     bindcode 172 exec playerctl play-pause

@@ -17,9 +17,10 @@ PS1='\u.\h \W> '	# bash prompt
 xrdb ~/.Xresources	# reload urxvt config
 
 # midi
-pkill -f tools/
-nohup python ~/tools/transparent_win.py &
-nohup python ~/tools/midi.py &
+pkill -f .tools/
+nohup python ~/.tools/transparent_win.py &
+nohup python ~/.tools/midi.py -p 1 & # nano
+nohup python ~/.tools/midi.py -p 2 & # akai
 
 # startup script
 espeak -v en-wi -p0 -k20 -z "welcome Mr $(whoami)"

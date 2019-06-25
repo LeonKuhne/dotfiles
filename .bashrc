@@ -17,14 +17,10 @@ alias cc='clear'
 alias ls='ls --color=auto'
 alias showkey='sudo showkey'
 
-function yom(){
-	python ~/tools/yom/__main__.py
-}
-
 function reach(){
 	if [ "$1" = "hell" ]; then
 		echo "server is in switching... please correct IP"
-		ssh root@2001:19f0:5:5ec4:5400:02ff:fe22:b813
+		ssh root@169.254.169.254
 	fi
 	if [ "$1" = "admin" ]; then
 		xdg-open "https://my.vultr.com/subs/?SUBID=26467058"
@@ -59,6 +55,10 @@ function geet() {
 
 function md() {
 	pandoc $@ | lynx -stdin
+}
+
+function plog() {
+	tail -f /proc/$@/fd/1
 }
 
 echo -e -n "$COLOR_GREEN"
