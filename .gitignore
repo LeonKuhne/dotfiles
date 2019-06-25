@@ -7,7 +7,7 @@
 
 .mozilla/*
 .config/*
-!.config/sway/*
+!.config/sway/config
 
 .cargo/registry/*
 .cargo/git/*
