@@ -1,5 +1,5 @@
-URxvt.depth: 32
-URxvt.background: #000000
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
 URxvt.scrollBar: False
 URxvt.font: xft:Courier:size=12
 URxvt.letterSpace: -1

@@ -2,8 +2,11 @@
 # ~/.startup
 #
 
+# kill all still remaining processes
+pkill -f .tools/
+
 # set background image
-# TODO
+. ~/.tools/image_today.sh
 
 # set keyboard rate
 xset r rate 120 13
@@ -17,7 +20,6 @@ PS1='\u.\h \W> '	# bash prompt
 xrdb ~/.Xresources	# reload urxvt config
 
 # midi
-pkill -f .tools/
 nohup python ~/.tools/transparent_win.py &
 nohup python ~/.tools/midi.py -p 1 & # nano
 nohup python ~/.tools/midi.py -p 2 & # akai
