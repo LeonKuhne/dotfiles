@@ -1,0 +1,20 @@
+URxvt*depth: 32
+URxvt*background: rgba:0000/0000/0200/c800
+URxvt.scrollBar: False
+URxvt.font: xft:Courier:size=12
+URxvt.letterSpace: -1
+URxvt.cursorColor: #EBA759
+URxvt.perl-ext-common: matcher,url-select,keyboard-select
+!! url-select M-u (mod + u)
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select-launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: true
+URxvt.colorUL: #EBA759
+!! keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! matcher
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+Xft.dpi: 96
+Xft.antialias: true
