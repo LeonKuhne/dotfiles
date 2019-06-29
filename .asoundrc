@@ -1,3 +1,3 @@
-defaults.pcm.card 4
-defaults.ctl.card 4
+defaults.pcm.name 2
+defaults.ctl.name 2
 defaults.pcm.rate_converter "speexrate_best"
