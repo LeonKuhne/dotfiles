@@ -17,6 +17,7 @@ alias cc='clear'
 alias ls='ls --color=auto'
 alias showkey='sudo showkey'
 alias gdiff="git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'"
+alias rm='rm -i'
 
 function notify() {
 	"$@"
@@ -118,5 +119,6 @@ fi					####  #
 # bash start location
 cd
 
+export VISUAL=vim;
 # bash prompt
 PS1='\e[35m\u.\h \W> \e[39m'
