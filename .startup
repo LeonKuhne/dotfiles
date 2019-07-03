@@ -1,12 +1,10 @@
+#!/bin/bash
 #
 # ~/.startup
 #
 
 # kill all still remaining processes
 pkill -f .tools/
-
-# set background image
-/home/x/.tools/image_today.sh
 
 # set keyboard rate
 xset r rate 120 13
@@ -19,6 +17,9 @@ cd 			# setup directory
 PS1='\u.\h \W> '	# bash prompt
 xrdb ~/.Xresources	# reload urxvt config
 
+# set background image
+. ~/.tools/image_today.sh
+
 # midi
 nohup python ~/.tools/transparent_win.py &
 nohup python ~/.tools/midi.py -p 1 & # nano
@@ -26,4 +27,3 @@ nohup python ~/.tools/midi.py -p 2 & # akai
 
 # startup script
 espeak-ng -v en-wi -p0 -k20 -z "welcome Mr $(whoami)"
-

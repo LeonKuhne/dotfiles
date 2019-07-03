@@ -8,7 +8,7 @@ COLOR_DARKCYAN="\e[38;5;23m"
 COLOR_RESET="\e[39m"
 
 # If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+#[[ $- != *i* ]] && return
 
 # this is here because the .startup file sometimes doesn't do it :(
 xset r rate 120 13
@@ -26,7 +26,7 @@ function notify() {
 
 function reach(){
 	if [ "$1" = "hell" ]; then
-		ssh hell@192.227.131.222
+		ssh root@192.227.131.222
 	fi
 	if [ "$1" = "admin" ]; then
 		echo "you still got \$9 on vultr"
