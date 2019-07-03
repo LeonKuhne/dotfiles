@@ -26,11 +26,11 @@ function notify() {
 
 function reach(){
 	if [ "$1" = "hell" ]; then
-		echo "server is in switching... please correct IP"
-		ssh root@169.254.169.254
+		ssh hell@192.227.131.222
 	fi
 	if [ "$1" = "admin" ]; then
-		xdg-open "https://my.vultr.com/subs/?SUBID=26467058"
+		echo "you still got \$9 on vultr"
+		xdg-open "https://billing.virmach.com/clientarea.php?action=services"
 	fi
 }
 

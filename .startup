@@ -6,7 +6,7 @@
 pkill -f .tools/
 
 # set background image
-. /home/x/.tools/image_today.sh
+/home/x/.tools/image_today.sh
 
 # set keyboard rate
 xset r rate 120 13
