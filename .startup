@@ -10,7 +10,7 @@ pkill -f .tools/
 xset r rate 120 13
 
 # enable redshift (dim brightness)
-redshift -l 43.79924:-72.1228 -t 5700:3200 -g 0.7 &
+redshift -l 43.79924:-72.1228 -t 5800:3200 -g 0.7 &
 
 # setup/configure
 cd 			# setup directory
