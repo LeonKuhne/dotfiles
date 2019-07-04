@@ -20,4 +20,6 @@ echo -e "\e[38;5;60m"
 echo "get .startup to set xrat"
 echo "vim, make cursor wide when in view mode"
 echo "make nano slider adjust gamma/brightness"
-echo -en $RESET
+echo -e $RESET
+
+firejail --list
