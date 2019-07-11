@@ -37,8 +37,8 @@ echo "https://github.com/nrupatunga/PY-GOTURN/"
 echo "https://github.com/opencv/opencv_extra/tree/c4219d5eb3105ed8e634278fad312a1a8d2c182d"
 echo "https://github.com/ahmetozlu/vehicle_counting_tensorflow"
 
-
 # tutorials
 echo "https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/"
 echo "https://www.learnopencv.com/goturn-deep-learning-based-object-tracking/"
 echo "https://www.learnopencv.com/multitracker-multiple-object-tracking-using-opencv-c-python/"
+echo "https://towardsdatascience.com/using-recurrent-neural-networks-for-track-detection-in-noise-5e6395c8afae"
