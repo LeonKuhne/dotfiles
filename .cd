@@ -22,3 +22,7 @@ echo "get .startup to set xrat"
 echo "vim, make cursor wide when in view mode"
 echo "make nano slider adjust gamma/brightness"
 echo -e $RESET
+
+echo "TODO"
+echo "docker-compose up"
+echo "python3 vehicle_detection_main.py"
