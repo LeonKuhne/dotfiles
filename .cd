@@ -26,3 +26,19 @@ echo -e $RESET
 echo "TODO"
 echo "docker-compose up"
 echo "python3 vehicle_detection_main.py"
+
+echo "LINKS"
+echo "https://github.com/6o6o/sort/tree/dev"
+echo "https://github.com/Guanghan/ROLO"
+echo "https://gitlab.cs.washington.edu/xkcd/re3-tensorflow"
+echo "https://github.com/natdebru/OpenCV-Video-Label"
+echo "https://github.com/davheld/GOTURN"
+echo "https://github.com/nrupatunga/PY-GOTURN/"
+echo "https://github.com/opencv/opencv_extra/tree/c4219d5eb3105ed8e634278fad312a1a8d2c182d"
+echo "https://github.com/ahmetozlu/vehicle_counting_tensorflow"
+
+
+# tutorials
+echo "https://www.pyimagesearch.com/2018/07/30/opencv-object-tracking/"
+echo "https://www.learnopencv.com/goturn-deep-learning-based-object-tracking/"
+echo "https://www.learnopencv.com/multitracker-multiple-object-tracking-using-opencv-c-python/"
