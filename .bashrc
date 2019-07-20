@@ -10,9 +10,6 @@ COLOR_RESET="\e[39m"
 # If not running interactively, don't do anything
 #[[ $- != *i* ]] && return
 
-# this is here because the .startup file sometimes doesn't do it :(
-xset r rate 120 13
-
 alias cc='clear'
 alias ls='ls --color=auto'
 alias showkey='sudo showkey'

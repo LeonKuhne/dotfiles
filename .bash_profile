@@ -5,4 +5,5 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 # launch window manager
-sway
+echo "'sway' or 'xinit'"
+#sway

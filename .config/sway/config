@@ -14,7 +14,8 @@ set $mod Mod1
 set $term 'termite'
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
-set $menu pacman -Qe | awk '{ print $1 }' | bemenu | xargs swaymsg exec
+#set $menu pacman -Qe | awk '{ print $1 }' | bemenu | xargs swaymsg exec
+set $menu ls /usr/share/applications | awk -F '.desktop' ' { print $1 }' | bemenu | xargs swaymsg exec
 
 ### Output configuration
 #
@@ -24,7 +25,8 @@ set $menu pacman -Qe | awk '{ print $1 }' | bemenu | xargs swaymsg exec
 output DVI-D-1 resolution 1920x1080 position 0,0
 output DVI-D-2 resolution 1440x900 position 480,1080
 #output DP-1 resolution 1920x1080 position 1920,200
-output DP-1 resolution 1024x768@144Hz position 1920,200
+output DP-1 resolution 1920x1080@144Hz position 1920,200
+#output DP-1 resolution 1024x768@144Hz position 1920,200
 #output HDMI-A-1 resolution 1440x900 position 1920,880
 
 ### Idle configuration
@@ -93,9 +95,15 @@ output DP-1 resolution 1024x768@144Hz position 1920,200
 # Mouse Acceleration
 #
 input 6899:1:Kingsis_Peripherals_ZOWIE_Gaming_mouse {
-    pointer_accel -1
+    accel_profile flat
+    pointer_accel 0
+
 }
 
+input 1241:373:USB-HID_Keyboard {
+    repeat_delay 120
+    repeat_rate 20
+}
 #
 # Moving around:
 #
