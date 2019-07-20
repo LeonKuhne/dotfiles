@@ -20,7 +20,7 @@ set $menu ls /usr/share/applications | awk -F '.desktop' ' { print $1 }' | bemen
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-#output * bg /usr/share/backgrounds/sway/mountain.jpg fill
+output * bg /data/Downloads/image.today fill
 # Setup Displays (`swaymsg -t get_outputs` for possible outputs)
 output DVI-D-1 resolution 1920x1080 position 0,0
 output DVI-D-2 resolution 1440x900 position 480,1080
@@ -199,14 +199,17 @@ bar {
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
     status_command while date +'%Y/%m/%d %l:%M %p'; do sleep 1; done
+    pango_markup enabled
     font Cantarell
+    #separator_symbol |
+    gaps 15 15
 
     colors {
-        statusline #33B84E
-        background #302E26
-	focused_workspace #33B897 #000000 #EBA759 
-	inactive_workspace #275555 #302E26 #33B84E
-	active_workspace #EBA759 #302E26 #33B84E
+        statusline #000000
+        background #302E2655
+	focused_workspace #33B897 #000000EE #EBA759 
+	inactive_workspace #275555 #000000CC #33B84E
+	active_workspace #EBA759 #302E26EE #33B84E
     }
 }
 
@@ -223,7 +226,7 @@ client.background #000000
 
 # gaps
 gaps inner 10
-gaps outer 5
+#gaps outer 5
 
 #
 # Run Startup Script
