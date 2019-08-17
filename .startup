@@ -31,10 +31,13 @@ export MOZ_ENABLE_WAYLAND=1
 
 # midi
 nohup python ~/.tools/transparent_win.py &
-nohup python ~/.tools/midi.py -p 1 & # nano
-nohup python ~/.tools/midi.py -p 2 & # akai
+nohup python ~/.tools/midi/midi.py -p 0 & # nano
+nohup python ~/.tools/midi/midi.py -p 1 & # akai
 
-# startup script
+###
+# Startup Scripts
+###
+
 espeak-ng -v en-wi -p0 -k20 -z "welcome Mr $(whoami)"
 
 # set background image

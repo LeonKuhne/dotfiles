@@ -202,7 +202,7 @@ bar {
     pango_markup enabled
     font Cantarell
     #separator_symbol |
-    gaps 15 15
+    gaps 10 10
 
     colors {
         statusline #000000

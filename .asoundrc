@@ -1,13 +1,13 @@
 pcm.!default {
-    type hw
-    card 2
+    type plug
+    slave { pcm "pulse" }
 }
 
-ctl.!default {
-    type hw
-    card 2
+pcm.pulse {
+    type pulse
 }
 
-defaults.pcm.name 2
-defaults.ctl.name 2
-defaults.pcm.rate_converter "speexrate_best"
+ctl.mixer0 {
+    type hw
+    card 0
+}
