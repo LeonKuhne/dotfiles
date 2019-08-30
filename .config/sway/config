@@ -22,12 +22,11 @@ set $menu ls /usr/share/applications | awk -F '.desktop' ' { print $1 }' | bemen
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg /data/Downloads/image.today fill
 # Setup Displays (`swaymsg -t get_outputs` for possible outputs)
-output DVI-D-1 resolution 1920x1080 position 0,0
-output DVI-D-2 resolution 1440x900 position 480,1080
-#output DP-1 resolution 1920x1080 position 1920,200
-output DP-1 resolution 1920x1080@144Hz position 1920,200
+output HDMI-A-1 resolution 1440x900 position 0,0
+output DP-1 resolution 1920x1080@144Hz position 1440,850
+output DVI-D-1 resolution 1920x1080 position 3000,-230
+output DVI-D-2 resolution 1440x900 position 4920,750 transform 270
 #output DP-1 resolution 1024x768@144Hz position 1920,200
-#output HDMI-A-1 resolution 1440x900 position 1920,880
 
 ### Idle configuration
 #
@@ -210,6 +209,8 @@ bar {
 	focused_workspace #33B897 #000000EE #EBA759 
 	inactive_workspace #275555 #000000CC #33B84E
 	active_workspace #EBA759 #302E26EE #33B84E
+        focused_background #000010AA
+        focused_statusline #FFFFFF
     }
 }
 
