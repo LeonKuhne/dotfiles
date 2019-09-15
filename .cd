@@ -18,7 +18,6 @@ echo "remember 'transmission' is your torrent client"
 echo -en $RESET
 
 echo -e "\e[38;5;60m"
-echo "get .startup to set xrat"
 echo "vim, make cursor wide when in view mode"
 echo "make nano slider adjust gamma/brightness"
 echo -e $RESET

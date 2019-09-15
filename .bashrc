@@ -29,6 +29,10 @@ function reach(){
 		echo "you still got \$9 on vultr"
 		xdg-open "https://billing.virmach.com/clientarea.php?action=services"
 	fi
+	if [ "$1" = "banjo" ]; then
+		echo "driving to school..."
+		ssh lxk1170@banjo.rit.edu
+	fi
 }
 
 function c() {
