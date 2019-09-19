@@ -1,9 +1,9 @@
 #!/bin/bash
 RESET="\e[39;49m"
-echo -e "\e[90;49;5;223m .\xf3_   \e[35mWelcome home!\e[32m \xf0 \e[90m \xF0\x9F\x8F\xA1    o0_\xf5   .\xf3  __._   \xf2, \e[39;49m" 
+echo -e "\e[90;49;5;223m .\xf3_   \e[35mWelcome home!\e[32m \xf0 \e[90m \xF0\x9F\x8F\xA1    o0_\xf5   .\xf3  __._   \xf2," 
 
 # show diff files
-echo -en $RESET
+echo -e '\e[0m'
 git status -s
 echo -en "\e[38;5;172m"
 gdiff
