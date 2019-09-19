@@ -21,9 +21,10 @@ function notify() {
 	play -v .1 /data/Music/tada.wav > /dev/null 2>&1
 }
 
+# Reach Server
 function reach(){
 	if [ "$1" = "hell" ]; then
-		ssh root@192.227.131.222
+		ssh x@172.245.158.116
 	fi
 	if [ "$1" = "admin" ]; then
 		echo "you still got \$9 on vultr"
@@ -35,6 +36,30 @@ function reach(){
 	fi
 }
 
+# Teleport to Directory
+BACK_LOC="/home/x"
+LAST_LOC="/home/x"
+CUR_LOC="/home/x"
+function tp(){
+	BACK_LOC=$LAST_LOC
+	LAST_LOC=$CUR_LOC
+
+	if [ "$@" = "school" ]; then
+		CUR_LOC="/data/School"
+	fi
+	if [ "$@" = "down" ]; then
+		CUR_LOC="/data/Downloads"
+	fi
+	if [ "$@" = "-" ]; then
+		CUR_LOC=$BACK_LOC
+	fi
+
+	cd $CUR_LOC
+	
+	
+}
+
+# Change Directory
 function c() {
 	# test if file exists
 	test -f .cd
@@ -92,20 +117,8 @@ function plog() {
 	tail -f /proc/$@/fd/1
 }
 
-echo -e -n "$COLOR_GREEN"
-echo "Switch Virtual Servers"
 echo -e "$COLOR_DARKCYAN"
-echo -e "\tCtrl+Alt+F1, F2, F3, ...\n"
-
-echo -e "$COLOR_GREEN""cmake"
-echo -e "$COLOR_DARKCYAN"
-cat .instructions/cmake.txt | sed 's/^/\t/'
-
-# print out network information (vnstat)
-echo -e -n $COLOR_DARKMAGENTA
-vnstat -h
-echo -e $COLOR_RESET
-
+~/.cd
 
 if [[ $bind_nethogs == true ]]; then	#   #  #### ##### w
 	sudo nethogs			##  # #       #   o
