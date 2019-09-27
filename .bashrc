@@ -117,9 +117,6 @@ function plog() {
 	tail -f /proc/$@/fd/1
 }
 
-echo -e "$COLOR_DARKCYAN"
-~/.cd
-
 if [[ $bind_nethogs == true ]]; then	#   #  #### ##### w
 	sudo nethogs			##  # #       #   o
 	exit			        # # # ###     #   r
@@ -132,6 +129,10 @@ fi					####  #
 
 # bash start location
 cd
+
+# print header
+echo -e "$COLOR_DARKCYAN"
+~/.cd
 
 export VISUAL=vim;
 # bash prompt

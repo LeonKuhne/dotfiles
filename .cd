@@ -1,12 +1,13 @@
 #!/bin/bash
 RESET="\e[39;49m"
-echo -e "\e[90;49;5;223m .\xf3_   \e[35mWelcome home!\e[32m \xf0 \e[90m \xF0\x9F\x8F\xA1    o0_\xf5   .\xf3  __._   \xf2," 
+#echo -e "\e[90;49;5;223m .\xf3_   \e[35mWelcome home!\e[32m \xf0 \e[90m \xF0\x9F\x8F\xA1    o0_\xf5   .\xf3  __._   \xf2," 
+#echo -e '\e[0m'
 
 # show diff files
-echo -e '\e[0m'
 git status -s
 echo -en "\e[38;5;172m"
-gdiff
+echo "make a dynamic text program in which letters melt into eachother when pixels are close"
+#gdiff
 echo -en $RESET
 
 echo -e "\e[38;5;8m"
@@ -21,5 +22,6 @@ echo -en $RESET
 echo -e "\e[38;5;60m"
 echo "vim, make cursor wide when in view mode"
 echo "make nano slider adjust gamma/brightness"
+echo "have a keyboard shortcut google searching in dmenu"
 echo -e $RESET
 
