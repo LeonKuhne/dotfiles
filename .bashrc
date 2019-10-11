@@ -15,10 +15,27 @@ alias ls='ls --color=auto'
 alias showkey='sudo showkey'
 alias gdiff="git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'"
 alias rm='rm -i'
+alias yom='python /home/x/.tools/yom/__main__.py & exit'
 
 function notify() {
 	"$@"
 	play -v .1 /data/Music/tada.wav > /dev/null 2>&1
+}
+
+function send(){
+	if [ "$1" = "down" ]; then
+        echo -e "here you go satan... *drops $2*"
+        # send to hell
+		scp $2 x@172.245.158.116:~/$3
+        echo "SATAN: I will use this to torture infidels."
+    fi
+	if [ "$1" = "in" ]; then
+        echo -e "$2, noose is being tightened"
+        # send to school
+		scp $2 lxk1170@banjo.rit.edu:~/$3
+        echo "eehhhchcchhllle\n\n\n..."
+    fi
+
 }
 
 # Reach Server
@@ -33,6 +50,10 @@ function reach(){
 	if [ "$1" = "banjo" ]; then
 		echo "driving to school..."
 		ssh lxk1170@banjo.rit.edu
+	fi
+    if [ "$1" = "inv" ]; then
+		echo "sorting through incels..."
+        ssh ec2-user@ec2-3-16-181-169.us-east-2.compute.amazonaws.com
 	fi
 }
 
@@ -49,6 +70,9 @@ function tp(){
 	fi
 	if [ "$@" = "down" ]; then
 		CUR_LOC="/data/Downloads"
+	fi
+	if [ "$@" = "inv" ]; then
+		CUR_LOC="/data/School/SWEN343/swen343-inventory"
 	fi
 	if [ "$@" = "-" ]; then
 		CUR_LOC=$BACK_LOC
@@ -77,7 +101,9 @@ function cl() {
 
 function ccl() {
 	# cd, clear, and ls
-	c $@
+    if [ ! $@ -eq 0  ]; then
+    	c $@
+    fi
 	clear
 	ls
 }
@@ -117,15 +143,15 @@ function plog() {
 	tail -f /proc/$@/fd/1
 }
 
-if [[ $bind_nethogs == true ]]; then	#   #  #### ##### w
-	sudo nethogs			##  # #       #   o
-	exit			        # # # ###     #   r
-fi				        #   # #####   #   k
+if [[ $bind_nethogs == true ]]; then
+	sudo nethogs
+	exit			  
+fi				    
 
-if [[ $bind_iftop == true ]]; then	 ####  #TOP  
-	sudo iftop			  #   # 
-	exit				  #   ###     
-fi					####  #    
+if [[ $bind_iftop == true ]]; then
+	sudo iftop
+	exit	
+fi	
 
 # bash start location
 cd

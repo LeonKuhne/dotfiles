@@ -1,0 +1,15 @@
+vim, make cursor wide when in view mode
+make nano slider adjust gamma/brightness
+have a keyboard shortcut google searching in dmenu
+make a dynamic text program in which letters melt into eachother when pixels are close
+add a dmenu shortcut for opening a firefox tab on the left monitor with google calendar and google drive
+make a shortcut for opening mycourses on the top monitor
+pad shortcut for turning off certain displays (then impl into carl
+change firefox homepage (create simple search site, key binds for different websites)
+make a firefox extension that highlights rows in mycourses assignments for upcoming dates
+create a generator for words to learn definitions of that have lots of rhymes and/or words that rhyme closely and teach the definitions with a game or something
+create shortcuts for mycourses in dmenu'
+google calendar extension
+install fish
+get ranger image viewer working
+set fish as the default shell

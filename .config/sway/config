@@ -1,4 +1,4 @@
-# Read `man 5 sway` for a complete reference.
+# Rea `man 5 sway` for a complete reference.
 
 # disable wayland support (sway page, above tips and tricks)
 # enabling this may be useful for specific window applications
@@ -15,17 +15,18 @@ set $term 'termite'
 # Your preferred application launcher
 # Note: it's recommended that you pass the final command to sway
 #set $menu pacman -Qe | awk '{ print $1 }' | bemenu | xargs swaymsg exec
-set $menu ls /usr/share/applications | awk -F '.desktop' ' { print $1 }' | bemenu | xargs swaymsg exec
+set $menu /home/x/.tools/custom_search.sh
+#set $menu echo -e "$(ls /usr/share/applications)\n$(echo 'daddy')" | awk -F '.desktop' ' { print $1 }' | bemenu | xargs swaymsg exec
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg /data/Downloads/image.today fill
 # Setup Displays (`swaymsg -t get_outputs` for possible outputs)
-output DVI-D-1 resolution 1920x1080 position 0,1040
-output DP-1 resolution 1920x1080@144Hz position 1920,900
-output HDMI-A-1 resolution 1440x900 position 2080,0
-output DVI-D-2 resolution 1440x900 position 3840,900 transform 270
+output DVI-D-1 resolution 1920x1080 position 0,1080
+output DP-1 resolution 1920x1080@144Hz position 1680,0
+output HDMI-A-1 resolution 1440x900 position 1920,1080
+output DVI-D-2 resolution 1920x1080 position 3360,1080 transform 270
 #output DP-1 resolution 1024x768@144Hz position 1920,200
 
 ### Idle configuration
@@ -69,6 +70,9 @@ output DVI-D-2 resolution 1440x900 position 3840,900 transform 270
     bindsym $mod+Shift+r reload
 
     # Custom Tool Binds
+    # 'bookmark' current website
+    bindsym $mod+b exec /home/x/.tools/custom_search.sh bookmark
+
     # offer dmenu for...
     # selecting workspace
     bindcode 105 exec --no-startup-id /home/x/.tools/adv_workspace.sh select
@@ -220,7 +224,7 @@ bar {
 
 # border
 default_border pixel 1
-client.focused #000000 #000000 #EBA759 #000000 #000000
+client.focused #000000 #000000 #EBA759 #000000 #8800FF
 client.focused_inactive #B0414A #4A3D39 #E36A3D #B0414A #4A3D39 
 client.unfocused #000000 #000000 #33B84E #000000 #000000
 client.background #000000
