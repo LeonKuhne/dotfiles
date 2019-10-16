@@ -1,7 +1,7 @@
 syntax on
 colorscheme desert
 
-:set tabstop=4
+:set tabstop=2
 :set shiftwidth=4
 :set expandtab
 
@@ -14,4 +14,4 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-let g:syntastic_pug_checkers = ['pug']
+let g:syntastic_pug_checkers = ['pug-lint']

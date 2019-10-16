@@ -1,0 +1,25 @@
+{
+  "profiles": {
+    "leonardodakuhne": {
+      "name": "leonardodakuhne",
+      "javaArgs": "-Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn218M"
+    }
+  },
+  "selectedProfile": "leonardodakuhne",
+  "clientToken": "b2cc290c-878e-4b45-a882-2a770c5bbafc",
+  "authenticationDatabase": {
+    "64a5a344ba8d449f80fec178aac461ab": {
+      "displayName": "leonardodakuhne",
+      "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsIm5iZiI6MTU3MTA4NDQ3NSwieWdndCI6ImE3YjE4ZmM0MzY5ZjRjMzE5OGFmN2I3NjZhODg2MWZkIiwic3ByIjoiNjRhNWEzNDRiYThkNDQ5ZjgwZmVjMTc4YWFjNDYxYWIiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTcxMjU3Mjc1LCJpYXQiOjE1NzEwODQ0NzV9.YGNCJ97wWKkOpT0KKvbvJA7g1KJFBgshlhQ7RPgAVaU",
+      "userid": "cb561e5986fb48d3a2f5b5dc3232f427",
+      "uuid": "64a5a344-ba8d-449f-80fe-c178aac461ab",
+      "username": "leonkuhne@gmail.com"
+    }
+  },
+  "selectedUser": "64a5a344ba8d449f80fec178aac461ab",
+  "launcherVersion": {
+    "name": "1.6.89-j",
+    "format": 21,
+    "profilesFormat": 1
+  }
+}

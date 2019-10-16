@@ -78,7 +78,7 @@ function tp(){
 		CUR_LOC=$BACK_LOC
 	fi
 
-	cd $CUR_LOC
+	c $CUR_LOC
 	
 	
 }
