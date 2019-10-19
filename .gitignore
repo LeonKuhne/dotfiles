@@ -19,3 +19,4 @@
 .lesshst
 .viminfo
 .wget-hsts
+.npm/anonymous-cli-metrics.json
