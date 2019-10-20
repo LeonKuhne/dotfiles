@@ -23,10 +23,16 @@ set $menu /home/x/.tools/custom_search.sh
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg /data/Downloads/image.today fill
 # Setup Displays (`swaymsg -t get_outputs` for possible outputs)
-output DVI-D-1 resolution 1920x1080 position 0,720
+#output DVI-D-1 resolution 1920x1080 position 0,720
+#output DP-1 resolution 1920x1080@144Hz position 1920,0
+#output HDMI-A-1 resolution 1440x900 position 1920,1080
+#output DVI-D-2 resolution 1920x1080 position 3360,1080 transform 270
+
+# TEMP
+output DVI-D-1 resolution 1920x1080 position 0,0
 output DP-1 resolution 1920x1080@144Hz position 1920,0
-output HDMI-A-1 resolution 1440x900 position 1920,1080
-output DVI-D-2 resolution 1920x1080 position 3360,1080 transform 270
+
+# CSGO
 #output DP-1 resolution 1024x768@144Hz position 1920,200
 
 ### Idle configuration
@@ -132,6 +138,12 @@ input 1241:373:USB-HID_Keyboard {
     bindsym $mod+5 workspace 5
     bindsym $mod+6 workspace 6
     bindsym $mod+7 workspace 7
+    bindsym $mod+8 workspace 8
+    bindsym $mod+9 workspace 9
+    bindsym $mod+Shift+1 move container to workspace 1
+    bindsym $mod+Shift+2 move container to workspace 2
+    bindsym $mod+Shift+3 move container to workspace 3
+    bindsym $mod+Shift+4 move container to workspace 4
     bindsym $mod+Shift+5 move container to workspace 5
     bindsym $mod+Shift+6 move container to workspace 6
     bindsym $mod+Shift+7 move container to workspace 7
