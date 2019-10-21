@@ -16,6 +16,7 @@ alias showkey='sudo showkey'
 alias gdiff="git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'"
 alias rm='rm -i'
 alias yom='python /home/x/.tools/yom/__main__.py & exit'
+alias glgg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 
 function notify() {
 	"$@"
