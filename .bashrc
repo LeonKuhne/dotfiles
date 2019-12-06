@@ -64,7 +64,7 @@ function reach(){
 	fi
   if [ "$1" = "minecraft" ]; then
     echo "abstracting data, blocking through zombies"
-    ssh -i ~/.ssh/minecraft.pem ec2-user@107.22.105.143 $2
+    sudo ssh -i ~/.ssh/minecraft.pem ec2-user@18.206.248.32 $2
   fi
 }
 
