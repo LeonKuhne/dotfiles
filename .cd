@@ -13,6 +13,7 @@ echo "use 'geet', 'c', and 'md'"
 echo "'cd -' let you go back to the prev directory"
 echo "'plog' to view hidden process stdout"
 echo "remember 'transmission' is your torrent client"
+echo "rclone ls gdrive:"
 
 # show diff files
 echo -e $RESET
@@ -31,6 +32,7 @@ do
   ((i-=9))
   ((i=i+((i%=6))))
 done < ".todo"
+
 
 echo -e $RESET
 

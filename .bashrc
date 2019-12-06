@@ -17,6 +17,7 @@ alias gdiff="git diff -U0 | grep '^[+-]' | grep -Ev '^(--- a/|\+\+\+ b/)'"
 alias rm='rm -i'
 alias yom='python /home/x/.tools/yom/__main__.py & exit'
 alias glgg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+alias midi="python ~/.tools/midi/midi.py"
 
 function notify() {
 	"$@"
@@ -52,16 +53,39 @@ function reach(){
 		echo "driving to school..."
 		ssh lxk1170@banjo.rit.edu
 	fi
-    if [ "$1" = "inv" ]; then
-		echo "sorting through incels..."
-        ssh ec2-user@ec2-3-16-181-169.us-east-2.compute.amazonaws.com
+	if [ "$1" = "serenity" ]; then
+		echo "is it getting  chilly in here?"
+		ssh lxk1170@serenity.ist.rit.edu
 	fi
+  if [ "$1" = "inv" ]; then
+		echo "sorting through incels..."
+    ssh ec2-user@ec2-3-16-181-169.us-east-2.compute.amazonaws.com
+	fi
+  if [ "$1" = "minecraft" ]; then
+    echo "abstracting data, blocking through zombies"
+    ssh -i ~/.ssh/minecraft.pem ec2-user@107.22.105.143
+  fi
+}
+
+function vpn(){
+  if [ "$1" = "rit" ]; then
+    echo "establishing connection..."
+    sudo openconnect -s /etc/vpnc/vpnc-script vpn.rit.edu
+    echo "connection established..."
+  fi
+}
+
+# html starter
+function new(){
+  if [ "$1" = "html" ]; then
+    cp ~/.config/starters/index.html .
+  fi
 }
 
 # Teleport to Directory
-BACK_LOC="/home/x"
-LAST_LOC="/home/x"
-CUR_LOC="/home/x"
+BACK_LOC="."
+LAST_LOC="."
+CUR_LOC="."
 function tp(){
 	BACK_LOC=$LAST_LOC
 	LAST_LOC=$CUR_LOC
@@ -78,10 +102,14 @@ function tp(){
 	if [ "$@" = "-" ]; then
 		CUR_LOC=$BACK_LOC
 	fi
-
+  if [ "$@" = "four" ]; then
+		CUR_LOC="/srv/http/LinuxFourYou"
+	fi
+  if [ "$@" = "-h" ]; then
+    echo "[., -, school, down, inv, four]"
+  fi
+  
 	c $CUR_LOC
-	
-	
 }
 
 # Change Directory
@@ -164,3 +192,5 @@ echo -e "$COLOR_DARKCYAN"
 export VISUAL=vim;
 # bash prompt
 PS1='\e[35m\u.\h \W> \e[39m'
+
+eval "$(thefuck --alias)"

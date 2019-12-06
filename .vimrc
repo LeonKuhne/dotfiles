@@ -1,9 +1,23 @@
 syntax on
 colorscheme desert
 
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
+" optional reset cursor on start:
+augroup myCmds
+au!
+autocmd VimEnter * silent !echo -ne "\e[2 q"
+augroup END
+
+
 :set tabstop=2
-:set shiftwidth=4
+:set shiftwidth=2
 :set expandtab
+:set softtabstop=2
+:set background=dark
+
+filetype indent on
 
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

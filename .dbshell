@@ -1,0 +1,99 @@
+show dbs
+use idorg
+ls
+help
+db.help()
+help
+show collections
+show dbs
+use idorg
+show dbs
+show
+help
+show collections
+use idorg
+use idorg
+use user
+help
+show users
+show collections
+show dbs
+use idorg
+show collections
+db.User.find()
+db.dropDatabase()
+db.User.find()
+db.dropDatabase()
+db.User.find()
+db.dropDatabase()
+db.dropDatabase()
+use idorg
+use idorg
+show collections
+db.User.find()
+db.User.dropDatabase()
+db.dropDatabase('User')
+db.User.find()
+db.User.drop()
+db.User.find()
+use idorg
+db.User.find()
+db.User.find()
+use idorg
+db.User.find()
+db.User.drop()
+db.User.find()
+use idorg
+db.User.find()
+db.User.drop()
+help
+show dbs
+use idorg
+show collections
+db.User.find()
+db.idorg-User.find()
+db.idorg-User.drop
+db.User.find()
+show collections
+db.User.drop()
+db.id-orgUser.drop()
+db.idorg-User.drop()
+db.(idorg-User).drop()
+db."idorg-User".drop()
+db.idorg\-User.drop()
+db.idorgUser.drop()
+show collections
+db.User.drop()
+db.User.find()
+db.User.drop()
+show dbs
+use idorg
+db.User.find()
+db.User.find().pretty()
+db.User.drop()
+db.User.find().pretty()
+db.User.drop()
+db.User.find().pretty()
+db.User.drop()
+db.User.find().pretty()
+db.User.drop()
+db.User.find().pretty()
+db.User.drop()
+db.User.find().pretty()
+clear
+clear()
+db.User.find().pretty()
+db.User.drop()
+show dbs
+use idorg
+show collections
+db.Item.find()
+db.Item.drop()
+db.Item.find()
+clear()
+clear
+show collections
+db.Item.drop()
+db.User.drop()
+db.Item.find()
+db.User.find()
