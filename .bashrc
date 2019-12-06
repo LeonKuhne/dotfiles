@@ -8,8 +8,9 @@ COLOR_DARKCYAN="\e[38;5;23m"
 COLOR_RESET="\e[39m"
 
 # If not running interactively, don't do anything
-#[[ $- != *i* ]] && return
+[[ $- != *i* ]] && return
 
+alias vim='nvim'
 alias cc='clear'
 alias ls='ls --color=auto'
 alias showkey='sudo showkey'
@@ -187,10 +188,18 @@ cd
 
 # print header
 echo -e "$COLOR_DARKCYAN"
-~/.cd
+c .
 
 export VISUAL=vim;
+
+# use termite.terminfo
+tic -x termite.terminfo
+
+# update git config
+git config --global user.email "lxk1170"
+git config --global user.name "Leon Kuhne"
+git config credential.helper store
+
 # bash prompt
 PS1='\e[35m\u.\h \W> \e[39m'
 
-eval "$(thefuck --alias)"
