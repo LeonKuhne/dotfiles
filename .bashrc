@@ -44,29 +44,34 @@ function send(){
 # Reach Server
 function reach(){
 	if [ "$1" = "hell" ]; then
-		ssh x@172.245.158.116
+		ssh x@172.245.158.116 $2
 	fi
 	if [ "$1" = "admin" ]; then
 		echo "you still got \$9 on vultr"
-		xdg-open "https://billing.virmach.com/clientarea.php?action=services"
+		xdg-open "https://billing.virmach.com/clientarea.php?action=services" $2
 	fi
 	if [ "$1" = "banjo" ]; then
 		echo "driving to school..."
-		ssh lxk1170@banjo.rit.edu
+		ssh lxk1170@banjo.rit.edu $2
 	fi
 	if [ "$1" = "serenity" ]; then
 		echo "is it getting  chilly in here?"
-		ssh lxk1170@serenity.ist.rit.edu
+		ssh lxk1170@serenity.ist.rit.edu $2
 	fi
   if [ "$1" = "inv" ]; then
 		echo "sorting through incels..."
-    ssh ec2-user@ec2-3-16-181-169.us-east-2.compute.amazonaws.com
+    ssh ec2-user@ec2-3-16-181-169.us-east-2.compute.amazonaws.com $2
 	fi
   if [ "$1" = "minecraft" ]; then
     echo "abstracting data, blocking through zombies"
-    ssh -i ~/.ssh/minecraft.pem ec2-user@107.22.105.143
+    ssh -i ~/.ssh/minecraft.pem ec2-user@107.22.105.143 $2
   fi
 }
+
+function configure() {
+  reach $1 "git clone --single-branch --branch server_dotfiles http://github.com/lxk1170/arch-configs.git && mv .bashrc .bashrc-backup && cp -a arch-configs/. . && rm -r arch-configs"
+}
+
 
 function vpn(){
   if [ "$1" = "rit" ]; then
