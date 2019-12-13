@@ -34,11 +34,16 @@ nohup python ~/.tools/transparent_win.py &
 nohup python ~/.tools/midi/midi.py -p 0 & # nano
 nohup python ~/.tools/midi/midi.py -p 1 & # akai
 
+# setup speakers
+pulseaudio --kill
+jack_control start
+
 ###
 # Startup Scripts
 ###
 
 espeak-ng -v en-wi -p0 -k20 -z "welcome Mr $(whoami)"
+
 
 # set background image
 . ~/.tools/image_today.sh &

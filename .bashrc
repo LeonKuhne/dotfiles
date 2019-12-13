@@ -19,6 +19,7 @@ alias yom='python /home/x/.tools/yom/__main__.py & exit'
 alias glgg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias midi="python ~/.tools/midi/midi.py"
 alias save="geet 'saving' && git push"
+alias minecraft='LC_ALL=C minecraft-launcher & exit'
 
 function notify() {
 	"$@"
@@ -118,6 +119,14 @@ function tp(){
 	c $CUR_LOC
 }
 
+function mcrun() {
+  ssh -i ~/.ssh/minecraft.pem ec2-user@$1 -t "\
+    wget leonkuhne.com:7777/run.sh && \
+    bash --login -c exit && \
+    chmod a+x run.sh && \
+    ./run.sh Mango"
+}
+
 # Change Directory
 function c() {
 	# test if file exists
@@ -200,3 +209,5 @@ export VISUAL=vim;
 PS1='\e[35m\u.\h \W> \e[39m'
 
 eval "$(thefuck --alias)"
+#!/bin/bash
+

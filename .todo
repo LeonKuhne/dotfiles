@@ -20,4 +20,4 @@
 > background image scrolling on mouse (trackball) move
 > bind to modify the mouse sensitivity
 > make lines wrap when going over the limit (in the console)
-> ec2 ip: 107.22.105.143
+> reopen closed windows on reboot
