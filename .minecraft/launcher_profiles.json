@@ -1,7 +1,7 @@
 {
   "authenticationDatabase" : {
     "cb561e5986fb48d3a2f5b5dc3232f427" : {
-      "accessToken" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsIm5iZiI6MTU3NjE3OTE1NywieWdndCI6IjMwYjUwOTdlMDQwNzQzNzBhOTJjOThiZjAxNDgxMDIyIiwic3ByIjoiNjRhNWEzNDRiYThkNDQ5ZjgwZmVjMTc4YWFjNDYxYWIiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTc2MzUxOTU3LCJpYXQiOjE1NzYxNzkxNTd9.bWCoFNhtYxjWv7RElNAsjKOi4PGr-StUfri85Jn4DPg",
+      "accessToken" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsIm5iZiI6MTU3NjQzMDE0NiwieWdndCI6IjVlY2UyYTAxZjdjOTQzZDNiZGY4Y2RlZWMwNmU0ZTFlIiwic3ByIjoiNjRhNWEzNDRiYThkNDQ5ZjgwZmVjMTc4YWFjNDYxYWIiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTc2NjAyOTQ2LCJpYXQiOjE1NzY0MzAxNDZ9.L3cmvDWeTCtTlsLzn4-LJTxG7Cde5lq3mkk9bPRRkvI",
       "profiles" : {
         "64a5a344ba8d449f80fec178aac461ab" : {
           "displayName" : "ramx_"
@@ -21,8 +21,8 @@
     "458ee8ec373e9f3ebe1d7586c404981d" : {
       "created" : "1970-01-02T00:00:00.000Z",
       "icon" : "Grass",
-      "javaArgs" : "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
-      "lastUsed" : "2019-12-13T17:11:09.373Z",
+      "javaArgs" : "-Xmx7G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+      "lastUsed" : "2019-12-15T17:42:20.680Z",
       "lastVersionId" : "latest-release",
       "name" : "",
       "type" : "latest-release"
