@@ -1,8 +1,9 @@
-pcm.pulse {
-    type pulse
+pcm.!default {
+    type plug
+    slave { pcm "pulse" }
 }
 
-ct1.pulse {
+pcm.pulse {
     type pulse
 }
 
@@ -11,10 +12,4 @@ ctl.mixer0 {
     card 0
 }
 
-pcm.!default {
-    type pulse
-}
-
-ct1.!default {
-  type pulse
-}
+defaults.pcm.rate_converter "speexrate_best"

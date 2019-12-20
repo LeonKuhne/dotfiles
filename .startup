@@ -36,7 +36,7 @@ nohup python ~/.tools/midi/midi.py -p 1 & # akai
 
 # setup speakers
 pulseaudio --kill
-jack_control start
+#jack_control start
 
 ###
 # Startup Scripts
