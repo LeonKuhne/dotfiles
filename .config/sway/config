@@ -264,3 +264,5 @@ exec --no-startup-id /home/x/.startup
 #xwayland disable
 
 ### Variables
+
+exec pulseaudio --daemonize

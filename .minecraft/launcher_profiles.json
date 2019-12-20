@@ -1,7 +1,7 @@
 {
   "authenticationDatabase" : {
     "cb561e5986fb48d3a2f5b5dc3232f427" : {
-      "accessToken" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsIm5iZiI6MTU3NjQzMDE0NiwieWdndCI6IjVlY2UyYTAxZjdjOTQzZDNiZGY4Y2RlZWMwNmU0ZTFlIiwic3ByIjoiNjRhNWEzNDRiYThkNDQ5ZjgwZmVjMTc4YWFjNDYxYWIiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTc2NjAyOTQ2LCJpYXQiOjE1NzY0MzAxNDZ9.L3cmvDWeTCtTlsLzn4-LJTxG7Cde5lq3mkk9bPRRkvI",
+      "accessToken" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsIm5iZiI6MTU3NjcxMTYyMywieWdndCI6ImU3NDVlN2NkMWViMDQyMTZiNTI5YjhiNmEwYjFlODExIiwic3ByIjoiNjRhNWEzNDRiYThkNDQ5ZjgwZmVjMTc4YWFjNDYxYWIiLCJyb2xlcyI6W10sImlzcyI6ImludGVybmFsLWF1dGhlbnRpY2F0aW9uIiwiZXhwIjoxNTc2ODg0NDIzLCJpYXQiOjE1NzY3MTE2MjN9.wSViR6SzuqjpOmL1YuME9hKp4VQATyppHCuMq5psR5Y",
       "profiles" : {
         "64a5a344ba8d449f80fec178aac461ab" : {
           "displayName" : "ramx_"
@@ -22,15 +22,24 @@
       "created" : "1970-01-02T00:00:00.000Z",
       "icon" : "Grass",
       "javaArgs" : "-Xmx7G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
-      "lastUsed" : "2019-12-15T17:42:20.680Z",
+      "lastUsed" : "2019-12-18T23:27:23.552Z",
       "lastVersionId" : "latest-release",
       "name" : "",
       "type" : "latest-release"
     },
+    "6399ba855f5c042b58c4efb4811b0deb" : {
+      "created" : "2019-12-18T23:31:18.853Z",
+      "icon" : "Furnace",
+      "javaArgs" : "-Xmx7G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+      "lastUsed" : "2019-12-18T23:49:15.431Z",
+      "lastVersionId" : "1.15",
+      "name" : "Mango",
+      "type" : "custom"
+    },
     "b7928b75154c2e5d54d7102a798e8b4d" : {
       "created" : "1970-01-01T00:00:00.000Z",
       "icon" : "Crafting_Table",
-      "lastUsed" : "1970-01-01T00:00:00.000Z",
+      "lastUsed" : "2019-12-18T23:27:18.787Z",
       "lastVersionId" : "latest-snapshot",
       "name" : "",
       "type" : "latest-snapshot"

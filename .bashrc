@@ -120,7 +120,7 @@ function tp(){
 }
 
 function mcrun() {
-  scp -i ~/.ssh/minecraft.pem ~/termite.terminfo ec2-user@$1:~/
+  scp -i ~/.ssh/minecraft.pem ~/.secret/termite.terminfo ec2-user@$1:~/
   scp -i ~/.ssh/minecraft.pem ~/.secret/gitcreds.txt ec2-user@$1:~/
   ssh -i ~/.ssh/minecraft.pem ec2-user@$1 -t "\
     tic -x termite.terminfo
@@ -210,7 +210,5 @@ echo -e "$COLOR_DARKCYAN"
 export VISUAL=vim;
 # bash prompt
 PS1='\e[35m\u.\h \W> \e[39m'
-
 eval "$(thefuck --alias)"
-#!/bin/bash
 
