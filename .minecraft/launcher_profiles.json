@@ -31,7 +31,7 @@
       "created" : "2019-12-18T23:31:18.853Z",
       "icon" : "Furnace",
       "javaArgs" : "-Xmx7G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
-      "lastUsed" : "2019-12-18T23:49:15.431Z",
+      "lastUsed" : "2019-12-20T21:10:32.276Z",
       "lastVersionId" : "1.15",
       "name" : "Mango",
       "type" : "custom"

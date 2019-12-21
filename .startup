@@ -35,7 +35,7 @@ nohup python ~/.tools/midi/midi.py -p 0 & # nano
 nohup python ~/.tools/midi/midi.py -p 1 & # akai
 
 # setup speakers
-pulseaudio --kill
+#pulseaudio --kill
 #jack_control start
 
 ###
