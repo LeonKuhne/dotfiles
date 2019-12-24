@@ -1,0 +1,8 @@
+# ignore everything
+*
+
+# except dotfiles
+!.*
+!.*/*
+.*/.cache/*
+.cache/*
