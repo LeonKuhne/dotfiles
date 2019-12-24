@@ -1577,3 +1577,10 @@ sudo apt-get uninstall firefox
 sudo apt-get remove firefox
 i3 restart
 exit
+apt-cache search fish
+sudo apt-get install fish
+fish
+i3-sensible-terminal 
+i3-sensible-terminal fish
+i3-sensible-terminal -e fish
+exit
