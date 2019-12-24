@@ -21,9 +21,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1577201391,,"wq"
+|2,0,1577201677,,"wq"
 :w
-|2,0,1577201382,,"w"
+|2,0,1577201651,,"w"
 :q
 |2,0,1577200163,,"q"
 :q!
@@ -248,38 +248,36 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
+"0	LINE	0
 	.*/.cache
-|3,1,0,1,1,0,1577201377,".*/.cache"
-"1	LINE	0
-	!.bashrc
-|3,0,1,1,1,0,1577201242,"!.bashrc"
+|3,0,0,1,1,0,1577201377,".*/.cache"
+""1	LINE	0
+	    git push origin 
+|3,1,1,1,1,0,1577201628,"    git push origin "
 "2	LINE	0
-	      nl .todo/list
-|3,0,2,1,1,0,1577145569,"      nl .todo/list"
+	!.bashrc
+|3,0,2,1,1,0,1577201242,"!.bashrc"
 "3	LINE	0
-	    similarText="$(grep "$2" .todo/list)"
-|3,0,3,1,1,0,1577145401,"    similarText=\"$(grep \"$2\" .todo/list)\""
+	      nl .todo/list
+|3,0,3,1,1,0,1577145569,"      nl .todo/list"
 "4	LINE	0
-	    similarText=
-|3,0,4,1,1,0,1577145327,"    similarText="
+	    similarText="$(grep "$2" .todo/list)"
+|3,0,4,1,1,0,1577145401,"    similarText=\"$(grep \"$2\" .todo/list)\""
 "5	LINE	0
-	    # update the cursor to track the new recently added line
-|3,0,5,1,1,0,1577145184,"    # update the cursor to track the new recently added line"
+	    similarText=
+|3,0,5,1,1,0,1577145327,"    similarText="
 "6	LINE	0
-	
-|3,0,6,1,1,0,1577145182,""
+	    # update the cursor to track the new recently added line
+|3,0,6,1,1,0,1577145184,"    # update the cursor to track the new recently added line"
 "7	LINE	0
-	      echo "$recentLine"
-|3,0,7,1,1,0,1577144680,"      echo \"$recentLine\""
+	
+|3,0,7,1,1,0,1577145182,""
 "8	LINE	0
+	      echo "$recentLine"
+|3,0,8,1,1,0,1577144680,"      echo \"$recentLine\""
+"9	LINE	0
 	    echo "$expresion"
-|3,0,8,1,1,0,1577144645,"    echo \"$expresion\""
-"9	CHAR	0
-	/
-	    #sed -in "$(echo $recentLine)s/$textToEdit/$text/" .todo/list
-	    
-|3,0,9,0,3,0,1577144605,"/","    #sed -in \"$(echo $recentLine)s/$textToEdit/$text/\" .todo/list","    "
+|3,0,9,1,1,0,1577144645,"    echo \"$expresion\""
 "u	CHAR	0
 	270
 <€ku€kd:w€ku€ku€kr€kliif €kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kl; then€kr€kr€kr€kr€kb€kb€kb€kb€kb€kb€kb€kb€kb      €kd    fi€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kbdd€ku€ku€kupi€kb€kb:w€kri€kb€kb€kb€kb    :w:w€ku€kdu..uu'
@@ -289,36 +287,132 @@ $
 |3,0,36,0,1,0,1577201099,"terminal"
 
 # File marks:
-'0  7  10  ~/.gitignore
-|4,48,7,10,1577201393,"~/.gitignore"
-'1  7  3  ~/.gitignore
-|4,49,7,3,1577201341,"~/.gitignore"
-'2  6  3  ~/.gitignore
-|4,50,6,3,1577201315,"~/.gitignore"
-'3  6  3  ~/.gitignore
-|4,51,6,3,1577201315,"~/.gitignore"
-'4  6  3  ~/.gitignore
-|4,52,6,3,1577201315,"~/.gitignore"
-'5  6  3  ~/.gitignore
-|4,53,6,3,1577201315,"~/.gitignore"
-'6  5  0  ~/.gitignore
-|4,54,5,0,1577201291,"~/.gitignore"
-'7  5  0  ~/.gitignore
-|4,55,5,0,1577201291,"~/.gitignore"
-'8  5  0  ~/.gitignore
-|4,56,5,0,1577201291,"~/.gitignore"
-'9  5  0  ~/.gitignore
-|4,57,5,0,1577201291,"~/.gitignore"
+'0  105  10  ~/.bashrc
+|4,48,105,10,1577201678,"~/.bashrc"
+'1  1  10  ~/.bashrc
+|4,49,1,10,1577201669,"~/.bashrc"
+'2  1  10  ~/.bashrc
+|4,50,1,10,1577201669,"~/.bashrc"
+'3  25  0  ~/.profile
+|4,51,25,0,1577201581,"~/.profile"
+'4  7  10  ~/.gitignore
+|4,52,7,10,1577201393,"~/.gitignore"
+'5  7  3  ~/.gitignore
+|4,53,7,3,1577201341,"~/.gitignore"
+'6  6  3  ~/.gitignore
+|4,54,6,3,1577201315,"~/.gitignore"
+'7  6  3  ~/.gitignore
+|4,55,6,3,1577201315,"~/.gitignore"
+'8  6  3  ~/.gitignore
+|4,56,6,3,1577201315,"~/.gitignore"
+'9  6  3  ~/.gitignore
+|4,57,6,3,1577201315,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  105  10  ~/.bashrc
+|4,39,105,10,1577201678,"~/.bashrc"
+-'  1  10  ~/.bashrc
+|4,39,1,10,1577201669,"~/.bashrc"
+-'  1  10  ~/.bashrc
+|4,39,1,10,1577201669,"~/.bashrc"
+-'  97  27  ~/.bashrc
+|4,39,97,27,1577201592,"~/.bashrc"
+-'  97  27  ~/.bashrc
+|4,39,97,27,1577201592,"~/.bashrc"
+-'  25  0  ~/.profile
+|4,39,25,0,1577201581,"~/.profile"
+-'  25  0  ~/.profile
+|4,39,25,0,1577201581,"~/.profile"
+-'  25  0  ~/.profile
+|4,39,25,0,1577201581,"~/.profile"
+-'  25  0  ~/.profile
+|4,39,25,0,1577201581,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1577201481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1577201481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1577201481,"~/.profile"
+-'  1  0  ~/.profile
+|4,39,1,0,1577201481,"~/.profile"
 -'  7  10  ~/.gitignore
 |4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  10  ~/.gitignore
+|4,39,7,10,1577201393,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
+-'  7  3  ~/.gitignore
+|4,39,7,3,1577201341,"~/.gitignore"
 -'  7  3  ~/.gitignore
 |4,39,7,3,1577201341,"~/.gitignore"
 -'  6  3  ~/.gitignore
 |4,39,6,3,1577201329,"~/.gitignore"
 -'  6  3  ~/.gitignore
 |4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201329,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
+-'  6  3  ~/.gitignore
+|4,39,6,3,1577201315,"~/.gitignore"
 -'  6  3  ~/.gitignore
 |4,39,6,3,1577201315,"~/.gitignore"
 -'  5  0  ~/.gitignore
@@ -328,7 +422,77 @@ $
 -'  5  0  ~/.gitignore
 |4,39,5,0,1577201301,"~/.gitignore"
 -'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201301,"~/.gitignore"
+-'  5  0  ~/.gitignore
 |4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201291,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
+-'  5  0  ~/.gitignore
+|4,39,5,0,1577201244,"~/.gitignore"
 -'  5  0  ~/.gitignore
 |4,39,5,0,1577201244,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -341,178 +505,56 @@ $
 |4,39,1,0,1577201180,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1577201180,"~/.gitignore"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  33  28  ~/.config/i3/config
-|4,39,33,28,1577201130,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  15  9  ~/.config/i3/config
-|4,39,15,9,1577201000,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
--'  12  9  ~/.config/i3/config
-|4,39,12,9,1577200954,"~/.config/i3/config"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1577201180,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1577201180,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	*	1577201677	0
+	"	105	10
+	^	1	11
+	.	1	10
+	+	93	0
+	+	98	13
+	+	99	9
+	+	101	5
+	+	99	9
+	+	100	24
+	+	101	0
+	+	101	7
+	+	101	13
+	+	102	5
+	+	95	20
+	+	96	13
+	+	95	0
+	+	96	16
+	+	97	15
+	+	96	16
+	+	97	27
+	+	105	16
+	+	106	13
+	+	108	22
+	+	109	1
+	+	111	16
+	+	113	12
+	+	112	15
+	+	113	12
+	+	1	10
+
+> ~/.profile
+	*	1577201579	0
+	"	25	0
+	^	25	0
+	.	25	0
+	+	23	0
+	+	24	12
+	+	24	16
+	+	24	12
+	+	24	13
+	+	25	0
 
 > ~/.gitignore
 	*	1577201391	0
@@ -887,29 +929,6 @@ $
 > ~/Desktop/todo
 	*	1577121101	0
 	"	1	0
-
-> ~/.bashrc
-	*	1577120610	0
-	"	96	27
-	^	96	28
-	.	96	27
-	+	92	0
-	+	97	13
-	+	98	9
-	+	100	5
-	+	98	9
-	+	99	24
-	+	100	0
-	+	100	7
-	+	100	13
-	+	101	5
-	+	94	20
-	+	95	13
-	+	94	0
-	+	95	16
-	+	96	15
-	+	95	16
-	+	96	27
 
 > ~/Desktop/MySolution/collect/.todo
 	*	1554292269	0
