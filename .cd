@@ -19,7 +19,7 @@ echo "rclone ls gdrive:"
 echo -e $RESET
 git status -s
 
-todo list
+.tools/.todo/todo.sh list
 
 echo -e $RESET
 
