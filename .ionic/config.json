@@ -1,0 +1,6 @@
+{
+  "version": "5.4.13",
+  "telemetry": true,
+  "npmClient": "npm",
+  "tokens.telemetry": "1fac9203-e4c1-4c99-8928-848f3f4484c0"
+}

@@ -1,0 +1,17 @@
+{
+  "packages": [
+    {
+      "name": "ionic",
+      "version": "5.4.13"
+    },
+    {
+      "name": "native-run",
+      "version": "0.3.0"
+    },
+    {
+      "name": "cordova-res",
+      "version": "0.8.1"
+    }
+  ],
+  "lastUpdate": "2020-01-04T11:16:22.304Z"
+}

@@ -20,6 +20,13 @@ alias glgg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold 
 alias midi="python ~/.tools/midi/midi.py"
 alias save="geet 'saving' && git push"
 alias minecraft='LC_ALL=C minecraft-launcher & exit'
+alias todo=". ~/.tools/.todo/todo.sh"
+
+# describe
+function des() {
+  ls $1
+  cat $1
+}
 
 function notify() {
 	"$@"
