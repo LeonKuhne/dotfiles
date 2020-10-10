@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+# /.startup
+#
+
+if test -f /home/id/.xinitrc; then
+  . /home/id/.xinitrc
+fi
+
+export PS1='[\u@h \W]\> '
+export BEMENU_BACKEND=wayland
+export EDITOR=vim
+
+
+# enable redshift (dim brightness)
+redshift -l 43.79924:-72.1228 -t 5800:3200 -g 0.7 &
+
+# start midi
+
+
+# welcome
+espeak-ng -v en-wi -p10 -s250 -k20 "Welcome home"
+espeak-ng -v en-wi -p10 -s150 "Mr. ^$(whoami)^"
+
+

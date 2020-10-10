@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/id/.git'
+let g:netrw_dirhist_0='/home/id/Documents/school/ISTEMidterm'
+let g:netrw_dirhist_9='/home/id/Documents/other'
+let g:netrw_dirhist_8='/home/id/Projects/JSProjectISTE/js'
+let g:netrw_dirhist_7='/home/id/Projects/leonkuhne.com'
+let g:netrw_dirhist_6='/home/id/Projects/leonkuhne.com/js'
+let g:netrw_dirhist_5='/home/id/Projects/leonkuhne.com/css'
+let g:netrw_dirhist_4='/home/id/Projects/AAAWebsite'
+let g:netrw_dirhist_3='/home/id/Projects/smenu'
+let g:netrw_dirhist_2='/home/id/Projects/Pyronameac'

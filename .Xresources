@@ -1,0 +1,4 @@
+UXTerm*background: black
+UXTerm*foreground: green
+UXTerm*faceName: Source Code Pro:size=14
+UXTerm*dynamicColors: true
