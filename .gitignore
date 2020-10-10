@@ -1,13 +1,14 @@
 /*
-!.*
 */*
+!.*
 
 !.config/*
 !.vim/*
 
+.gnupg/*
+.java/*
 .minecraft/*
 .mozilla/*
-.tools
 .cargo/registry/*
 .cargo/git/*
 .cache/
@@ -19,3 +20,9 @@
 .viminfo
 .wget-hsts
 .secret/*
+
+!**/*.conf
+!**/config
+!**/*.json
+
+

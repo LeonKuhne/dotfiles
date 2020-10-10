@@ -1,0 +1,55 @@
+{
+  "authenticationDatabase" : {
+    "cb561e5986fb48d3a2f5b5dc3232f427" : {
+      "accessToken" : "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjYjU2MWU1OTg2ZmI0OGQzYTJmNWI1ZGMzMjMyZjQyNyIsInlnZ3QiOiIwYTdhZGIzMzg5YWY0ZDk4OWZhYjRhN2ZmOTM5MTIzNyIsInNwciI6IjY0YTVhMzQ0YmE4ZDQ0OWY4MGZlYzE3OGFhYzQ2MWFiIiwiaXNzIjoiWWdnZHJhc2lsLUF1dGgiLCJleHAiOjE1OTk2ODAxNjYsImlhdCI6MTU5OTUwNzM2Nn0.cy8IZPxOT8c9mu7uYgGK-P-0xONPM-ahLy13YQ3hagk",
+      "profiles" : {
+        "64a5a344ba8d449f80fec178aac461ab" : {
+          "displayName" : "sexualblock"
+        }
+      },
+      "properties" : [],
+      "username" : "leonkuhne@gmail.com"
+    }
+  },
+  "clientToken" : "e7f6d5eee16246c2ba98a252295897e8",
+  "launcherVersion" : {
+    "format" : 21,
+    "name" : "",
+    "profilesFormat" : 2
+  },
+  "profiles" : {
+    "ba0be2b38d8bee27f20ec742a6ccde01" : {
+      "created" : "1970-01-01T00:00:00.000Z",
+      "icon" : "Crafting_Table",
+      "lastUsed" : "1970-01-01T00:00:00.000Z",
+      "lastVersionId" : "latest-snapshot",
+      "name" : "",
+      "type" : "latest-snapshot"
+    },
+    "ea7445f7437852c4092c7de5d4a39d1c" : {
+      "created" : "1970-01-02T00:00:00.000Z",
+      "icon" : "Grass",
+      "lastUsed" : "2020-09-07T19:43:36.417Z",
+      "lastVersionId" : "latest-release",
+      "name" : "",
+      "type" : "latest-release"
+    }
+  },
+  "selectedUser" : {
+    "account" : "cb561e5986fb48d3a2f5b5dc3232f427",
+    "profile" : "64a5a344ba8d449f80fec178aac461ab"
+  },
+  "settings" : {
+    "crashAssistance" : true,
+    "enableAdvanced" : false,
+    "enableAnalytics" : true,
+    "enableHistorical" : false,
+    "enableReleases" : true,
+    "enableSnapshots" : false,
+    "keepLauncherOpen" : false,
+    "profileSorting" : "ByLastPlayed",
+    "showGameLog" : false,
+    "showMenu" : false,
+    "soundOn" : false
+  }
+}

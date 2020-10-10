@@ -1,0 +1,15 @@
+ZoomLauncher started.
+Zoom path is: /opt/zoom
+cmd line: zoommtg://rit.zoom.us/join?action=join&confno=5692435614&pwd=QlNPTEd6SVEzS1d6YnVBMEI3YjZEQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPW1MNXBQMjdldldfUFRneGRkMzRUcmVZdWY5ZVZRZUh3c05WYnM1SEFhNWpEQldpNU5sUEV5WURpZHNWOTlOSGVrbVhUbWVxV1NPNGRjUElNSDZCVmlpTS5mdEphRjBnVXJfUHp6cVhpJnRpZD1kMmJlOWZjZjEwZjM0MzU1OWE0MTc0YzZmM2YwNjFiNQ%3D%3D&browser=firefox&t=1600980744438
+CreateReportChannel bp_server_fd=4
+$HOME = /home/id/.zoom 
+Can't load/home/id/.zoom/.config/zoomus.conf
+export SSB_HOME=/home/id/.zoom/.zoom; export QSG_INFO=1; export QT_AUTO_SCREEN_SCALE_FACTOR=1; export LD_LIBRARY_PATH=/opt/zoom; export BREAKPAD_CLIENT_FD=3; /opt/zoom/zoom "zoommtg://rit.zoom.us/join?action=join&confno=5692435614&pwd=QlNPTEd6SVEzS1d6YnVBMEI3YjZEQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPW1MNXBQMjdldldfUFRneGRkMzRUcmVZdWY5ZVZRZUh3c05WYnM1SEFhNWpEQldpNU5sUEV5WURpZHNWOTlOSGVrbVhUbWVxV1NPNGRjUElNSDZCVmlpTS5mdEphRjBnVXJfUHp6cVhpJnRpZD1kMmJlOWZjZjEwZjM0MzU1OWE0MTc0YzZmM2YwNjFiNQ%3D%3D&browser=firefox&t=1600980744438" 
+zoom started.
+Zoom is running, send message to it: zoommtg://rit.zoom.us/join?action=join&confno=5692435614&pwd=QlNPTEd6SVEzS1d6YnVBMEI3YjZEQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPW1MNXBQMjdldldfUFRneGRkMzRUcmVZdWY5ZVZRZUh3c05WYnM1SEFhNWpEQldpNU5sUEV5WURpZHNWOTlOSGVrbVhUbWVxV1NPNGRjUElNSDZCVmlpTS5mdEphRjBnVXJfUHp6cVhpJnRpZD1kMmJlOWZjZjEwZjM0MzU1OWE0MTc0YzZmM2YwNjFiNQ%3D%3D&browser=firefox&t=1600980744438
+Exit zoom as another zoom instance is running!
+Client: Breakpad is using Client-Server Mode! client fd = 3
+success to create child process,status is 0.
+zoom exited normally.
+run zoom successfully,exit code is 0.
+ZoomLauncher exit.
