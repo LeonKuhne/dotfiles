@@ -20,6 +20,7 @@
 .viminfo
 .wget-hsts
 .secret/*
+.python_history
 
 !**/*.conf
 !**/config

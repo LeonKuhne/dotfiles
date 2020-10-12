@@ -93,7 +93,12 @@ output DP-1 resolution 1920x1080 position 1920,1440
     bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
 
     # Follow the mouse through containers
+    focus_follows_mouse always
     mouse_warping container
+
+    # NOT SURE WHAT THESE DO, added for fun
+    smart_gaps on
+    smart_borders on
 
 #
 # Media
