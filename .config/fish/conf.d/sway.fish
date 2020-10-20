@@ -15,15 +15,19 @@ function c
 end
 
 # LEEES GIT SYNC SCRIPT
-function gup
+function geet
   git add . && git commit -m "$argv" && git push
 end
 
 
 # aliases
-alias o "xdg-open"
-alias rit "sudo openconnect --protocol=anyconnect vpn.rit.edu"
-alias hell "ssh x@172.245.158.116"
+
+# abbreviations
+abbr o "xdg-open"
+abbr cd "c"
+abbr py "python"
+abbr rit "sudo openconnect --protocol=anyconnect vpn.rit.edu"
+abbr hell "ssh x@172.245.158.116"
 
 bash -c "~/.bashrc"
 

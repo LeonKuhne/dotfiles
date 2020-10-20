@@ -4,6 +4,11 @@ SETUVAR --export BEMENU_BACKEND:wayland
 SETUVAR --export EDITOR:vim
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_cd:c
+SETUVAR _fish_abbr_hell:ssh\x20x\x40172\x2e245\x2e158\x2e116
+SETUVAR _fish_abbr_o:xdg\x2dopen
+SETUVAR _fish_abbr_py:python
+SETUVAR _fish_abbr_rit:sudo\x20openconnect\x20\x2d\x2dprotocol\x3danyconnect\x20vpn\x2erit\x2eedu
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
