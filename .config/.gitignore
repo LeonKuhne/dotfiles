@@ -5,3 +5,5 @@
 !**/*.json
 !**/**/*.fish
 !**/fish/*
+
+zoomus.conf
