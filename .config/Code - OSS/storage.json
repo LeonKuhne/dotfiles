@@ -4,7 +4,9 @@
         "workspaces3": [
             "file:///home/id/Projects/RecipeFinder"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/id/Downloads/pericles_15213900383.txt"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -40,7 +42,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -49,13 +52,25 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/id/Projects/RecipeFinder",
-                                        "external": "file:///home/id/Projects/RecipeFinder",
                                         "path": "/home/id/Projects/RecipeFinder",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Projects/RecipeFinder"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/id/Downloads/pericles_15213900383.txt",
+                                        "path": "/home/id/Downloads/pericles_15213900383.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/pericles_15213900383.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -90,13 +105,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -164,17 +177,16 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -374,8 +386,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -578,7 +589,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1439,8 +1451,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/id/Projects/RecipeFinder",
-            "backupPath": "/home/id/.config/Code - OSS/Backups/0fae8aa419f4696dca5d8decf502d2c0",
+            "backupPath": "/home/id/.config/Code - OSS/Backups/1604181315078",
             "uiState": {
                 "mode": 0,
                 "x": 2881,

@@ -4,6 +4,9 @@ if test -z "$DISPLAY"; and test $TTY1 = "/dev/tty1"
   exec sway
 end
 
+# exports
+set -Ux TOOLS "/home/id/Projects/tools"
+
 # LEEES CD SCRIPT
 function c
   cd $argv

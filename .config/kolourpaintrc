@@ -8,9 +8,12 @@ Recent Files[$e]=file:$HOME/Documents/signature.png,file:$HOME/Documents/signatu
 detailViewIconSize=0
 
 [MainWindow]
-State=AAAA/wAAAAD9AAAAAQAAAAMAAAKIAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAATYAAAKIAAACDQD///8AAAKIAAABWQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAeAAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAAAAAAeAAAACDQD///8AAAeAAAADpQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgCAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Window-Maximized 1080x1920=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1080x1920=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 XPosition=0
+XWAYLAND0 XWAYLAND1 XWAYLAND2 YPosition=1440
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -21,8 +24,10 @@ Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
 [Recent Files]
-File1[$e]=$HOME/Documents/signature.png
-Name1[$e]=signature.png
+File1[$e]=$HOME/Documents/school/Data Warehouse Definition.png
+File2[$e]=$HOME/Documents/school/Data Warehouse vs Data Lake.png
+Name1[$e]=Data Warehouse Definition.png
+Name2[$e]=Data Warehouse vs Data Lake.png
 
 [Tool Settings]
 Last Used Tool=8

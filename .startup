@@ -9,12 +9,12 @@ fi
 
 export PS1='[\u@h \W]\> '
 export EDITOR=vim
-export SWAYSOCK=/run/user/$(id -u)/sway-ipc.$(id -u).$(pgrep -x sway).sock
 
 # native steam
-export LD_PRELOAD="/usr/lib/libSDL2-2.0.so.0.9.0:/usr/lib32/libSDL2-2.0.so.0.9.0"~
+export LD_PRELOAD="/usr/lib/libSDL2-2.0.so.0.9.0:/usr/lib32/libSDL2-2.0.so.0.9.0"
 
 # native wayland
+export SWAYSOCK=/run/user/$(id -u)/sway-ipc.$(id -u).$(pgrep -x sway).sock
 export BEMENU_BACKEND="wayland"
 export GDK_BACKEND="wayland"
 export CLUTTER_BACKEND="wayland"
@@ -30,8 +30,11 @@ export MOZ_ENABLE_WAYLAND=1
 # enable redshift (dim brightness)
 redshift -l 43.79924:-72.1228 -t 5800:3200 -g 0.7 &
 
-# start midi
+# start image today
+. $TOOLS/image_today.sh
 
+# start midi
+# TODO
 
 # welcome
 espeak-ng -v en-wi -p10 -s250 -k20 "Welcome home"

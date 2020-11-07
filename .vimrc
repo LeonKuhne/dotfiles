@@ -5,5 +5,5 @@ set expandtab
 syntax on
 
 filetype indent on
-autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
+" autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
 autocmd BufRead,BufNewFile *.py setlocal tabstop=4 shiftwidth=4 softtabstop=4

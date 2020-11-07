@@ -3,6 +3,7 @@
 SETUVAR --export BEMENU_BACKEND:wayland
 SETUVAR --export EDITOR:vim
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
+SETUVAR --export TOOLS:/home/id/Projects/tools
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_cd:c
 SETUVAR _fish_abbr_hell:ssh\x20x\x40172\x2e245\x2e158\x2e116
