@@ -5,6 +5,7 @@
             "file:///home/id/Projects/RecipeFinder"
         ],
         "files2": [
+            "file:///home/id/Projects/idorg/src/components/Menu.tsx",
             "file:///home/id/Downloads/pericles_15213900383.txt"
         ]
     },
@@ -60,6 +61,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/id/Projects/idorg/src/components/Menu.tsx",
+                                        "path": "/home/id/Projects/idorg/src/components/Menu.tsx",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/idorg/src/components/Menu.tsx"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -589,8 +601,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1451,7 +1462,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/id/.config/Code - OSS/Backups/1604181315078",
+            "backupPath": "/home/id/.config/Code - OSS/Backups/1604884785867",
             "uiState": {
                 "mode": 0,
                 "x": 2881,
