@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/id/Projects/idorg/src/components'
 let g:netrw_dirhist_0='/home/id/Projects/rit/css'
 let g:netrw_dirhist_9='/home/id/Projects/rit/js'
 let g:netrw_dirhist_8='/home/id/Projects/aaa/frontend/src/components'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_5='/home/id/Projects/aaa/frontend/src/assets/scss/views/Repo
 let g:netrw_dirhist_4='/home/id/Projects/aaa/frontend/src/router'
 let g:netrw_dirhist_3='/home/id/.config/sway'
 let g:netrw_dirhist_2='/home/id/Projects/aaa/frontend/src/views'
-let g:netrw_dirhist_1='/home/id/.git'

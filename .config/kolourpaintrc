@@ -12,6 +12,7 @@ State=AAAA/wAAAAD9AAAAAQAAAAMAAAeAAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQ
 ToolBarsMovable=Disabled
 Window-Maximized 1080x1920=true
 XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1080x1920=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1440x900=true
 XWAYLAND0 XWAYLAND1 XWAYLAND2 XPosition=0
 XWAYLAND0 XWAYLAND1 XWAYLAND2 YPosition=1440
 
@@ -24,10 +25,14 @@ Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
 Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
 
 [Recent Files]
-File1[$e]=$HOME/Documents/school/Data Warehouse Definition.png
-File2[$e]=$HOME/Documents/school/Data Warehouse vs Data Lake.png
-Name1[$e]=Data Warehouse Definition.png
-Name2[$e]=Data Warehouse vs Data Lake.png
+File1[$e]=$HOME/Documents/school/MKTG/Steps in Ad Campaign.png
+File2[$e]=$HOME/Documents/school/MKTG/Communication Mediums.png
+File3[$e]=$HOME/Documents/school/MKTG/Choosing Social Media Platform.png
+File4[$e]=$HOME/Documents/school/MKTG/Company Objective Orientation.png
+Name1[$e]=Steps in Ad Campaign.png
+Name2[$e]=Communication Mediums.png
+Name3[$e]=Choosing Social Media Platform.png
+Name4[$e]=Company Objective Orientation.png
 
 [Tool Settings]
 Last Used Tool=8
