@@ -2,7 +2,10 @@
 # VERSION: 3.0
 SETUVAR --export BEMENU_BACKEND:wayland
 SETUVAR --export EDITOR:vim
+SETUVAR --export EPIPHANY_SCRIPT:/home/id/\x2elocal/share/epiphany/user\x2djavascript\x2ejs
+SETUVAR --export EPIPHANY_SCRIPTS:/home/id/\x2elocal/share/epiphany/user\x2djavascript\x2ejs
 SETUVAR --export QT_QPA_PLATFORMTHEME:qt5ct
+SETUVAR --export STYLES:/home/id/Projects/reStyles
 SETUVAR --export TOOLS:/home/id/Projects/tools
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_cd:c
