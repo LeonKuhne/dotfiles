@@ -26,6 +26,13 @@ function todo
   /home/id/Projects/todo/todo.sh $argv
 end
 
+function styles
+  cd /home/id/Projects/restyles
+  vim /home/id/Projects/restyles
+  geet "autosaving (edits made)"
+  cd -
+end
+
 # aliases
 
 # abbreviations
@@ -34,7 +41,6 @@ abbr cd "c"
 abbr py "python"
 abbr rit "sudo openconnect --protocol=anyconnect vpn.rit.edu"
 abbr hell "ssh x@172.245.158.116"
-abbr js "vim ~/.local/share/epiphany/user-javascript.js"
 
 bash -c "~/.bashrc"
 
