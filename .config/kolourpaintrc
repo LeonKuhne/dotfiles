@@ -15,6 +15,9 @@ XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1080x1920=true
 XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1440x900=true
 XWAYLAND0 XWAYLAND1 XWAYLAND2 XPosition=0
 XWAYLAND0 XWAYLAND1 XWAYLAND2 YPosition=1440
+XWAYLAND1 XWAYLAND2 XWAYLAND3 Window-Maximized 1080x1920=true
+XWAYLAND1 XWAYLAND2 XWAYLAND3 XPosition=0
+XWAYLAND1 XWAYLAND2 XWAYLAND3 YPosition=1440
 
 [MainWindow][Toolbar Tool Box]
 ToolButtonStyle=IconOnly
@@ -29,10 +32,12 @@ File1[$e]=$HOME/Documents/school/MKTG/Steps in Ad Campaign.png
 File2[$e]=$HOME/Documents/school/MKTG/Communication Mediums.png
 File3[$e]=$HOME/Documents/school/MKTG/Choosing Social Media Platform.png
 File4[$e]=$HOME/Documents/school/MKTG/Company Objective Orientation.png
+File5[$e]=$HOME/Documents/school/CSCI/Screenshot_2020-11-13 PDM 13 - NoSQL - CSCI 320 01-04 - Principles of Data Management.png
 Name1[$e]=Steps in Ad Campaign.png
 Name2[$e]=Communication Mediums.png
 Name3[$e]=Choosing Social Media Platform.png
 Name4[$e]=Company Objective Orientation.png
+Name5[$e]=Screenshot_2020-11-13 PDM 13 - NoSQL - CSCI 320 01-04 - Principles of Data Management.png
 
 [Tool Settings]
 Last Used Tool=8

@@ -34,6 +34,7 @@ abbr cd "c"
 abbr py "python"
 abbr rit "sudo openconnect --protocol=anyconnect vpn.rit.edu"
 abbr hell "ssh x@172.245.158.116"
+abbr js "vim ~/.local/share/epiphany/user-javascript.js"
 
 bash -c "~/.bashrc"
 

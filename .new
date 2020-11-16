@@ -1,5 +1,5 @@
 new installs/shortcuts:
- o (xdg-open)
- c (cd)
- rit (vpn)
- figlet
+ o      - xdg-open
+ figlet - big text
+ cheese - take photos
+ js     - edit epiphany js
