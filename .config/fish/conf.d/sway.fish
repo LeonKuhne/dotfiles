@@ -28,7 +28,7 @@ end
 
 function styles
   cd /home/id/Projects/restyles
-  vim /home/id/Projects/restyles
+  vim styles.json
   geet "autosaving (edits made)"
   cd -
 end
