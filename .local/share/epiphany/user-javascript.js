@@ -1,6 +1,6 @@
 // use the local stylesheet (vs the online one)
 // local is faster but requires setup
-const localData = {"www.examcompass.com":{"body":{"background":"black","color":"red"}},"leonkuhne.com":{"body":{"background":"black","color":"magenta"},"img":{"box-shadow":"magenta 0 0 10px"},"#headshot":{"border":"cyan solid 10px"}}}
+const localData = {"www.examcompass.com":{"body":{"background":"black"},"#sidebar":{"display":"none"},"#gk-content":{"width":"100%"},"#adminForm":{"min-height":"750px"},"#gk-breadcrumb":{"display":"none"}},"leonkuhne.com":{"body":{"background":"black","color":"magenta"},"img":{"box-shadow":"magenta 0 0 10px"},"#headshot":{"border":"cyan solid 10px"}}}
 
 function decorate(styles) {
   Object.keys(styles).forEach(selector => {

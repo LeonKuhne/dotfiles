@@ -34,7 +34,7 @@ redshift -l 43.79924:-72.1228 -t 5800:3200 -g 0.7 &
 . $TOOLS/image_today.sh
 
 # start midi
-# TODO
+nohup python $TOOLS/midi/midi.py &
 
 # welcome
 espeak-ng -v en-wi -p10 -s250 -k20 "Welcome home"

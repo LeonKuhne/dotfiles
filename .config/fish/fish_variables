@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ANDROID_HOME:/opt/android\x2dsdk
 SETUVAR --export BEMENU_BACKEND:wayland
 SETUVAR --export EDITOR:vim
 SETUVAR --export EPIPHANY_SCRIPT:/home/id/\x2elocal/share/epiphany/user\x2djavascript\x2ejs

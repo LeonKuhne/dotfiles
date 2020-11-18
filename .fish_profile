@@ -13,5 +13,6 @@ end
 set -Ux BEMENU_BACKEND wayland
 set -Ux EDITOR vim
 set -Ux QT_QPA_PLATFORMTHEME qt5ct
+set -Ux ANDROID_HOME /opt/android-sdk
 
 echo "runing fish_profile"
