@@ -1,6 +1,6 @@
 // use the local stylesheet (vs the online one)
 // local is faster but requires setup
-const localData = {"www.examcompass.com":{"body":{"background":"black"},"#sidebar":{"display":"none"},"#gk-content":{"width":"100%"},"#adminForm":{"min-height":"750px"},"#gk-breadcrumb":{"display":"none"}},"calendar.google.com":{"body > div, .GENA3c, header, div[role=grid]":{"background":"black"},"body > div div":{"color":"magenta"},"body > div span":{"color":"#5F5"},"div[role=button]":{"filter":"saturate(2) brightness(0.8)"}},"leonkuhne.com":{"body":{"background":"black","color":"magenta"},"img":{"box-shadow":"magenta 0 0 10px"},"#headshot":{"border":"cyan solid 10px"}}}
+const localData = {"www.examcompass.com":{"body":{"background":"black"},"#sidebar":{"display":"none"},"#gk-content":{"width":"100%"},"#adminForm":{"min-height":"750px"},"#gk-breadcrumb":{"display":"none"}},"calendar.google.com":{".GENA3c, header, div[role=grid]":{"background":"black"}},"leonkuhne.com":{"body":{"background":"black","color":"magenta"},"img":{"box-shadow":"magenta 0 0 10px"},"#headshot":{"border":"cyan solid 10px"}}}
 
 function decorate(styles) {
   Object.keys(styles).forEach(selector => {
@@ -8,9 +8,11 @@ function decorate(styles) {
     Object.keys(attr).forEach(style => {
 
       // apply attributes
+      console.log("applying styles...")
       document.querySelectorAll(selector).forEach(node => {
         node.style[style] = attr[style]
       })
+      console.log("...done")
     })
   })
 }
