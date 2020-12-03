@@ -2,6 +2,7 @@
     "telemetry.machineId": "e39680cfddf79f3810f5a778cbf0098350a2fbd49543a2a86d1d5a77179c7ff0",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/id/Projects/ISTEFinal",
             "file:///home/id/Projects/RecipeFinder"
         ],
         "files2": [
@@ -45,7 +46,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -54,6 +56,19 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "fsPath": "/home/id/Projects/ISTEFinal",
+                                        "external": "file:///home/id/Projects/ISTEFinal",
+                                        "path": "/home/id/Projects/ISTEFinal",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/ISTEFinal"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/id/Projects/RecipeFinder",
                                         "path": "/home/id/Projects/RecipeFinder",
                                         "scheme": "file"
                                     },
@@ -67,23 +82,23 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/id/.local/share/epiphany/user-stylesheet.css",
-                                        "path": "/home/id/.local/share/epiphany/user-stylesheet.css",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.local/share/epiphany/user-stylesheet.css"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/id/.local/share/epiphany/user-javascript.js",
                                         "path": "/home/id/.local/share/epiphany/user-javascript.js",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.local/share/epiphany/user-javascript.js"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/id/.local/share/epiphany/user-stylesheet.css",
+                                        "path": "/home/id/.local/share/epiphany/user-stylesheet.css",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.local/share/epiphany/user-stylesheet.css"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -140,11 +155,13 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As..."
+                        "label": "Save &&As...",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -212,16 +229,17 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor"
+                        "label": "&&Close Editor",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -266,11 +284,13 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find"
+                        "label": "&&Find",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace"
+                        "label": "&&Replace",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -421,7 +441,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar"
+                                    "label": "Show &&Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -440,7 +461,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -615,7 +637,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -624,7 +647,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -765,23 +789,28 @@
                     },
                     {
                         "id": "editor.action.revealDefinition",
-                        "label": "Go to &&Definition"
+                        "label": "Go to &&Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.revealDeclaration",
-                        "label": "Go to &&Declaration"
+                        "label": "Go to &&Declaration",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToTypeDefinition",
-                        "label": "Go to &&Type Definition"
+                        "label": "Go to &&Type Definition",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToImplementation",
-                        "label": "Go to &&Implementations"
+                        "label": "Go to &&Implementations",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.goToReferences",
-                        "label": "Go to &&References"
+                        "label": "Go to &&References",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1485,7 +1514,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/id/.config/Code - OSS/Backups/1605539360459",
+            "folder": "file:///home/id/Projects/ISTEFinal",
+            "backupPath": "/home/id/.config/Code - OSS/Backups/20498d1c898f8b1154759151216974d6",
             "uiState": {
                 "mode": 0,
                 "x": 2881,

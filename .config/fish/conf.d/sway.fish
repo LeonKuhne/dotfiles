@@ -43,6 +43,11 @@ function styles
   cd -
 end
 
+# LEEES RESUDO SCRIPT
+function fuck
+  eval command sudo $history[1]
+end
+
 # aliases
 
 # abbreviations
