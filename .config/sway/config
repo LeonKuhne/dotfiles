@@ -273,3 +273,5 @@ bar {
 }
 
 include /etc/sway/config.d/*
+
+exec /home/id/.startup
