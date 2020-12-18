@@ -187,6 +187,7 @@ input 1149:32792:Kensington_Expert_Wireless_TB_Mouse {
     bindsym $mod+Shift+0 move container to workspace number 10
     # Note: workspaces can have any name you want, not just numbers.
     # We just use 1-10 as the default.
+
 #
 # Layout stuff:
 #
@@ -279,4 +280,5 @@ bar {
 
 include /etc/sway/config.d/*
 
+# automate your statup script, you dingus
 exec /home/id/.startup

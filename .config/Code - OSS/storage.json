@@ -6,6 +6,7 @@
             "file:///home/id/Projects/RecipeFinder"
         ],
         "files2": [
+            "file:///home/id/Projects/idorg/src/components/Node.tsx",
             "file:///home/id/.local/share/epiphany/user-javascript.js",
             "file:///home/id/.local/share/epiphany/user-stylesheet.css",
             "file:///home/id/Projects/idorg/src/components/Menu.tsx",
@@ -56,7 +57,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/id/Projects/ISTEFinal",
                                         "external": "file:///home/id/Projects/ISTEFinal",
                                         "path": "/home/id/Projects/ISTEFinal",
                                         "scheme": "file"
@@ -77,6 +77,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/id/Projects/idorg/src/components/Node.tsx",
+                                        "path": "/home/id/Projects/idorg/src/components/Node.tsx",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Projects/idorg/src/components/Node.tsx"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -155,13 +166,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "workbench.action.files.saveAll",
@@ -229,17 +238,16 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -284,13 +292,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -441,8 +447,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -461,8 +466,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -637,8 +641,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -647,8 +650,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1514,8 +1516,7 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/id/Projects/ISTEFinal",
-            "backupPath": "/home/id/.config/Code - OSS/Backups/20498d1c898f8b1154759151216974d6",
+            "backupPath": "/home/id/.config/Code - OSS/Backups/1608253070619",
             "uiState": {
                 "mode": 0,
                 "x": 2881,

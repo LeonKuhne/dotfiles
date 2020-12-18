@@ -49,6 +49,9 @@ function fuck
 end
 
 # aliases
+function yom
+  nohup python /home/id/Projects/yom/__main__.py & exit
+end
 
 # abbreviations
 abbr o "xdg-open"
