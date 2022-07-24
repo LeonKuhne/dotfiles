@@ -1,0 +1,18 @@
+cmd + shift - f : yabai -m window --toggle zoom-fullscreen
+
+# open terminal
+cmd - return : open -na /Applications/kitty.app --args -1 -o font_size=22.0
+
+## WINDOW NAV
+# focus 
+cmd - up : yabai -m window --focus north 
+cmd - down : yabai -m window --focus south
+cmd - right : yabai -m window --focus east
+cmd - left : yabai -m window --focus west
+# move
+cmd + shift - up : yabai -m window --swap north 
+cmd + shift - down : yabai -m window --swap south
+cmd + shift - right : yabai -m window --swap east
+cmd + shift - left : yabai -m window --swap west
+# close
+cmd - w : yabai -m window --close && yabai -m window --focus recent

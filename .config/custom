@@ -1,0 +1,38 @@
+#!/bin/zsh
+
+#
+# MY
+# CUSTOM 
+# FUNCTIONS 
+#            
+
+# this script has perms
+function reboot() {
+  reboot
+}
+
+# randomize color prompt
+function rand_prompt() {
+  PROMPT="%F{$((1+RANDOM%255))}>%f "
+}
+
+# randomize background color
+function rand_bg() {
+  convert -size 100x100 xc:#990000 $BG_PATH #generate image
+  #sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$BG_PATH'" && killall Dock 
+}
+
+# change [directory]
+function c() {
+  if [ -z "$@" ]; then
+    ls .
+  else 
+    cd $@
+    pwd
+    pwd > $LWD_DIR # store last working directory
+    rand_prompt # indicate change with color
+    if [ -f "$(pwd)/$C_DIR" ]; then # execute directory script
+      ./"$C_DIR"
+    fi
+  fi
+}
