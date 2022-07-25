@@ -36,3 +36,9 @@ function c() {
     fi
   fi
 }
+
+function backup() {
+  git add .
+  git commit -m "$@"
+  git push
+}

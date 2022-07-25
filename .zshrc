@@ -11,11 +11,8 @@ C_DIR=".cd"
 BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 
-
-# backup configs
-git add .
-git commit -m "backup"
-git push
+# backup config 
+backup "autosave" > /dev/null 2>&1
 
 # setup
 c $(cat $LWD_DIR) # start at last working directory
