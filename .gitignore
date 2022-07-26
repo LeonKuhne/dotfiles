@@ -29,6 +29,7 @@
 .cargo
 .IdentityService
 .config/lwd
+.swp
 
 !**/*.conf
 !**/config
