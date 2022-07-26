@@ -48,4 +48,5 @@ function backup() {
 function go() {
   url=$(echo "$@" | jq -sRr @uri)
   open -a firefox -g "https://www.google.com/search?q=$url"
+  open -a firefox # focus the window
 }
