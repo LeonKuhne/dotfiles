@@ -22,21 +22,6 @@ function rand_bg() {
   #sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$BG_PATH'" && killall Dock 
 }
 
-# change [directory]
-function c() {
-  if [ -z "$@" ]; then
-    ls --color .
-  else 
-    cd $@
-    pwd
-    pwd > $LWD_DIR # store last working directory
-    rand_prompt # indicate change with color
-    if [ -f "$(pwd)/$C_DIR" ]; then # execute directory script
-      ./"$C_DIR"
-    fi
-  fi
-}
-
 # git quickly
 function backup() {
   git add .
@@ -57,4 +42,19 @@ function help() {
     return
   fi
   cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
+}
+
+# change [directory]
+function c() {
+  if [ -z "$@" ]; then
+    ls --color .
+  else 
+    cd $@
+    pwd
+    pwd > $LWD_DIR # store last working directory
+    rand_prompt # indicate change with color
+    if [ -f "$(pwd)/$C_DIR" ]; then # execute directory script
+      ./"$C_DIR"
+    fi
+  fi
 }
