@@ -25,7 +25,7 @@ function rand_bg() {
 # change [directory]
 function c() {
   if [ -z "$@" ]; then
-    ls .
+    ls --color .
   else 
     cd $@
     pwd
