@@ -52,5 +52,5 @@ function go() {
 }
 
 function commands() {
-  cat ~/.config/custom | grep function | sed s/function\ //g | sed s/\(\)\ \{//g
+  cat ~/.config/custom | grep "\nfunction" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
