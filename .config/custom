@@ -67,8 +67,9 @@ function c() {
 }
 
 # clear (screen) and change (directory)
-function cc() {
-  
+function clearchange() {
+  clear
+  c $@
 }
 
 # start at last working directory

@@ -11,7 +11,7 @@ source ~/.config/custom
 # aliases
 alias ls="ls --color" 
 alias cd="nav"   # ranger navigation
-alias cc="clear && c" # clear and change
+alias cc="clear && c $@" # clear and change
 
 
 # backup config 
