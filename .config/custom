@@ -72,5 +72,5 @@ function back() {
 
 function cd() {
   bash -c ". ranger --choosedir=$HOME/.config/lwd"
-  c $(cat )
+  #c $(cat )
 }
