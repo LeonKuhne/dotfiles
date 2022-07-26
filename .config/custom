@@ -54,7 +54,7 @@ function c() {
     pwd > $LWD_DIR # store last working directory
     rand_prompt # indicate change with color
     if [ -f "$(pwd)/$C_DIR" ]; then # execute directory script
-      ./"$C_DIR"
+      . ./"$C_DIR"
     fi
   fi
 }
