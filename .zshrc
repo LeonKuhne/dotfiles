@@ -1,7 +1,6 @@
 #!/bin/zsh
 
 # exports
-export EDITOR="/usr/bin/vim"
 LWD_DIR="$HOME/.config/lwd"
 C_DIR=".cd"
 BG_PATH="~/.config/bg.png"
