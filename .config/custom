@@ -52,9 +52,9 @@ function go() {
 }
 
 function help() {
-  if [ -z $1 ]; then
+  if [ -z "$@" ]; then
     echo "usage: help <script>"
     return
   fi
-  cat ~/.config/custom | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
+  cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
