@@ -50,3 +50,7 @@ function go() {
   open -a firefox -g "https://www.google.com/search?q=$url"
   open -a firefox # focus the window
 }
+
+function commands() {
+  cat ~/.config/custom | grep function | sed s/function\ //g | sed s/\(\)\ \{//g
+}
