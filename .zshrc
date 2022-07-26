@@ -6,7 +6,7 @@ source ~/.config/custom
 alias ls="ls --color"
 
 function nav() {
-  . ranger
+  bash -c ". ranger"
 }
 
 alias cd="nav"
