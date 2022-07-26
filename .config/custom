@@ -51,6 +51,6 @@ function go() {
   open -a firefox # focus the window
 }
 
-function commands() {
-  cat ~/.config/custom | grep "\nfunction" | sed s/function\ //g | sed s/\(\)\ \{//g
+function help() {
+  cat ~/.config/custom | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
