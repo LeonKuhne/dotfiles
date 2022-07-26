@@ -27,9 +27,6 @@ function indent() {
   while read spo; do
     echo "  $spo";
   done
-
-  #output=$($@)
-  #echo $output | xargs -d "\n" echo "  $1"
 }
 
 # git quickly
