@@ -66,10 +66,13 @@ function c() {
   fi
 }
 
+# start at last working directory
 function back() {
   c $(cat $LWD_DIR)
 }
 
+# navigate with ranger
 function nav() {
   bash -c ". ranger --choosedir=$LWD_DIR"
+  back
 }
