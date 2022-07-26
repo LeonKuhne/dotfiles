@@ -5,7 +5,7 @@ LWD_DIR="$HOME/.config/lwd"
 C_DIR=".cd"
 BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
-EDITOR="/usr/bin/vim"
+EDITOR="vim"
 
 source ~/.config/custom
 
