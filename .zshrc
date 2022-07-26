@@ -5,6 +5,7 @@ source ~/.config/custom
 # aliases
 alias ls="ls --color"
 alias cd="ranger"
+alias go="open -a firefox -g https://www.google.com/search?q="
 
 # exports
 LWD_DIR=~/.config/lwd
