@@ -5,12 +5,6 @@ source ~/.config/custom
 # aliases
 alias ls="ls --color"
 
-function nav() {
-  bash -c ". ranger"
-}
-
-alias cd="nav"
-
 # exports
 LWD_DIR=~/.config/lwd
 C_DIR=".cd"

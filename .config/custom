@@ -65,3 +65,8 @@ function c() {
     fi
   fi
 }
+
+function cd() {
+  bash -c ". ranger --choosedir=$HOME/.config/lwd"
+  
+}
