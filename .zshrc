@@ -9,8 +9,9 @@ LC_CTYPE=en_US.utf8
 source ~/.config/custom
 
 # aliases
-alias ls="ls --color"
-alias cd="nav"
+alias ls="ls --color" 
+alias cd="nav"   # ranger navigation
+alias cc="clear" # clear content
 
 
 # backup config 
