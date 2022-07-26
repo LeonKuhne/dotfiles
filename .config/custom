@@ -46,5 +46,6 @@ function backup() {
 
 # search the internet
 function go() {
-  open -a firefox -g "https://www.google.com/search?q=$@"
+  url=$(echo "$@" | jq -sRr @uri)
+  open -a firefox -g "https://www.google.com/search?q=$url"
 }
