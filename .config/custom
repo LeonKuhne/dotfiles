@@ -66,12 +66,6 @@ function c() {
   fi
 }
 
-# clear (screen) and change (directory)
-function clearchange() {
-  clear
-  c $@
-}
-
 # start at last working directory
 function back() {
   c $(cat $LWD_DIR)
