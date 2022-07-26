@@ -5,6 +5,7 @@ source ~/.config/custom
 # aliases
 alias ls="ls --color"
 alias cd="ranger"
+alias c="cuper"
 
 # exports
 LWD_DIR=~/.config/lwd

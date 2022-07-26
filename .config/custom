@@ -44,8 +44,8 @@ function help() {
   cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
 
-# change [directory]
-function c() {
+# change [directory] |super cool 😎
+function cuper() {
   if [ -z "$@" ]; then
     ls --color .
   else 
