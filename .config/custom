@@ -37,8 +37,14 @@ function c() {
   fi
 }
 
+# git quickly
 function backup() {
   git add .
   git commit -m "$@"
   git push
+}
+
+# search the internet
+function go() {
+  open -a firefox -g "https://www.google.com/search?q=$@"
 }
