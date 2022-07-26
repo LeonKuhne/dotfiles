@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-source ~/.config/custom
+. ~/.config/custom
 
 # aliases
 alias ls="ls --color"
