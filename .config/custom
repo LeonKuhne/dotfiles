@@ -66,6 +66,11 @@ function c() {
   fi
 }
 
+# clear (screen) and change (directory)
+function cc() {
+  
+}
+
 # start at last working directory
 function back() {
   c $(cat $LWD_DIR)
