@@ -73,6 +73,6 @@ function back() {
 
 # navigate with ranger
 function nav() {
-  bash -c ". ranger --choosedir=$LWD_DIR"
-  back
+  bash -c "ranger --choosedir=$LWD_DIR"
+  #back
 }
