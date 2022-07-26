@@ -52,5 +52,8 @@ function go() {
 }
 
 function help() {
+  if [ -z $1 ]; then
+    echo "missing path"
+  fi
   cat ~/.config/custom | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
