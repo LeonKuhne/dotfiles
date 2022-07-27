@@ -37,7 +37,11 @@ function backup() {
 }
 
 function browse() {
-  open -a firefox -g 
+  if [ -z $1 ]; then
+    echo "usage: browse <url>"
+    return
+  fi
+  open -a firefox -g "$1"
   open -a firefox # focus the window
 }
 
