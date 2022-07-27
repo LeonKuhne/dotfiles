@@ -49,7 +49,7 @@ function browse() {
 function go() {
   url=$(echo "$@" | jq -sRr @uri)
   url="https://www.google.com/search?q=$url"
-  url $url
+  browse $url
 }
 
 function help() {
