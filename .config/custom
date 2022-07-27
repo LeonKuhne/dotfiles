@@ -36,11 +36,16 @@ function backup() {
   git push
 }
 
+function browse() {
+  open -a firefox -g 
+  open -a firefox # focus the window
+}
+
 # search the internet
 function go() {
   url=$(echo "$@" | jq -sRr @uri)
-  open -a firefox -g "https://www.google.com/search?q=$url"
-  open -a firefox # focus the window
+  url="https://www.google.com/search?q=$url"
+  url $url
 }
 
 function help() {
