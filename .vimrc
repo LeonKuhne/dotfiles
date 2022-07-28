@@ -1,5 +1,5 @@
+syntax enable
 filetype plugin indent on
-syntax on
 colorscheme desert
 
 set tabstop=4
