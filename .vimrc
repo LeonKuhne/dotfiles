@@ -1,14 +1,14 @@
-syntax enable
-filetype plugin indent on
-colorscheme desert
-
+set ruler "lxk1170"
 set tabstop=4
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set number
 set hlsearch 
-set ruler "lxk1170"
+
+syntax enable
+filetype plugin indent on
+colorscheme desert
 
 " autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
