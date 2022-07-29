@@ -12,7 +12,7 @@ sudo cp ~/Library/Preferences/com.apple.HIToolbox.plist /Library/Preferences/
 # a better terminal
 brew install kitty
 
-# install scripts
+# setup git
 git config --global user.name "lxk1170"
 git config --global user.email "lxk1170@rit.edu"
 git config pull.rebase true
@@ -30,6 +30,7 @@ touch ~/.config/lwd
 echo "basic setup complete"
 
 # install programs
+brew install koekeishiya/formulae/yabai
 curl https://sh.rustup.rs -sSf | sh
 
 # must reboot for programmer dvorak
