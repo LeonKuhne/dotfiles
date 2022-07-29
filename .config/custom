@@ -33,7 +33,7 @@ theme_config=~/.config/kitty/theme.conf
 function theme() {
   rm ~/.config/kitty/theme.conf
   wget "https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/$1.conf" -O "$theme_config"
-  echo "press '⌃ + ⌘ + ,' to reload theme"
+  echo "press '⌃+⌘+,' to reload theme"
 }
 
 # git quickly
