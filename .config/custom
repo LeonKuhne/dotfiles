@@ -17,6 +17,10 @@ function rand_bg() {
   #sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$BG_PATH'" && killall Dock 
 }
 
+function newline() {
+  python -c "import shutil; print('$1'*shutil.get_terminal_size().columns)"
+}
+
 # indent a multiline command
 function indent() {
   while read spo; do
