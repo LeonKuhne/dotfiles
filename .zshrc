@@ -7,7 +7,7 @@ BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 
-source ~/.config/custom
+. ~/.config/custom
 
 # aliases
 alias python="python3"
