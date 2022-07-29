@@ -29,6 +29,7 @@ ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
 chmod +x ~/.config/custom
 touch ~/.config/lwd
 brew install ranger
+brew install pillow
 
 echo "basic setup complete"
 
