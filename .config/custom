@@ -54,8 +54,8 @@ function browse() {
     echo "usage: browse <url>"
     return
   fi
-  open -a firefox -g "$1"
-  open -a firefox # focus the window
+  open -a $BROWSER -g "$1"
+  open -a $BROWSER # focus the window
 }
 
 # search the internet
