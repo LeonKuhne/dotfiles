@@ -39,7 +39,7 @@ function theme() {
 # git project
 function get() {
   git clone git@github.com:lxk1170/$1.git
-  c $1
+  cd $1
 }
 
 # git quickly
