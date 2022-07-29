@@ -11,8 +11,6 @@ sudo installer -pkg "~/Downloads/Programmer Dvorak v1.2.pkg" -target /
 sudo rm -f /System/Library/Caches/com.apple.IntlDataCache.le*
 sudo cp ~/Library/Preferences/com.apple.HIToolbox.plist /Library/Preferences/
 
-# a better terminal
-
 # setup git
 git config --global user.name "lxk1170"
 git config --global user.email "lxk1170@rit.edu"
@@ -31,6 +29,9 @@ brew install kitty
 brew install pillow
 brew install ranger
 brew install wget
+
+# setup directory structure
+mkdir Programs
 
 echo "basic setup complete"
 
