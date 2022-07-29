@@ -30,6 +30,7 @@ touch ~/.config/lwd
 brew install kitty
 brew install pillow
 brew install ranger
+brew install wget
 
 echo "basic setup complete"
 
