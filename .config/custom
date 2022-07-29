@@ -29,7 +29,6 @@ function indent() {
 }
 
 # set terminal theme
-theme_dir=~/.config/kitty/kitty-themes/themes
 theme_config=~/.config/kitty/theme.conf
 function theme() {
   rm ~/.config/kitty/theme.conf

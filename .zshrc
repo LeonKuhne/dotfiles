@@ -19,7 +19,6 @@ alias cc="clear && c $@" # clear and change
 
 
 # setup
-theme "3024_Night"
 backup "autosave" > /dev/null 2>&1 # backup config 
 back # start at last working directory
 rand_prompt # with random color
