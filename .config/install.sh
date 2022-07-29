@@ -19,10 +19,13 @@ git config pull.rebase true
 git init
 git remote add origin git@github.com:lxk1170/dotfiles.git
 git pull --set-upstream origin complex
-chmod +x ~/.config/custom
 
 # generate ssh key
 ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
+
+# fix custom scripts
+chmod +x ~/.config/custom
+touch ~/.config/lwd
 
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
