@@ -29,17 +29,17 @@ function indent() {
 }
 
 # set terminal theme
+theme_dir=~/.config/kitty/kitty-themes/themes
+theme_config=~/.config/kitty/theme.conf
 function theme() {
-  theme_dir=~/.config/kitty/kitty-themes/themes
   # aquire theme if new
   if [ ! -f "$theme_dir/$1.conf" ]; then
     theme_url=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/$1.conf
     wget "$theme_url" -P $theme_dir
   fi
   # link the loaded theme
-  destination=~/.config/kitty/theme.conf
   rm ~/.config/kitty/theme.conf
-  ln -s $theme_dir/$1.conf $destination 
+  ln -s $theme_dir/$1.conf $theme_config
 }
 
 # git quickly
