@@ -1,4 +1,6 @@
 #!/bin/bash
+# NOTE: this script is untested and probably needs fixes
+
 cd $HOME
 
 # install brew
