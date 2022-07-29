@@ -8,7 +8,7 @@ set hlsearch
 
 syntax enable
 filetype plugin indent on
-colorscheme desert
+" colorscheme desert
 
 " autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
