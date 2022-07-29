@@ -18,7 +18,11 @@ git remote add origin https://github.com/lxk1170/dotfiles.git
 git pull --set-upstream origin complex
 chmod +x ~/.config/custom
 
+# generate ssh key
+ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
 
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
+# must manually add ssh key to github
+echo "don't forget to copy your ssh key to github"
 cd -
