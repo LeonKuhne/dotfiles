@@ -31,7 +31,7 @@ brew install ranger
 brew install wget
 
 # setup directory structure
-mkdir Programs
+mkdir Projects
 
 echo "basic setup complete"
 

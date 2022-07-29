@@ -18,7 +18,7 @@ alias cc="clear && c $@" # clear and change
 alias cd="nav $@"   # ranger navigation
 alias p="cd ~/Projects"
 alias h="c ~"
-alias s="vim ~/Projects/Spotlight-Shortcuts/"
+alias s=". ~/Projects/Spotlight-Shortcuts/edit.sh"
 
 
 # setup
