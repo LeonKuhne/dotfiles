@@ -17,8 +17,9 @@ alias ls="ls --color"
 alias cd="nav $@"   # ranger navigation
 alias cc="clear && c $@" # clear and change
 
-# backup config 
-backup "autosave" > /dev/null 2>&1
+
 # setup
+theme "3024_Night"
+backup "autosave" > /dev/null 2>&1 # backup config 
 back # start at last working directory
 rand_prompt # with random color
