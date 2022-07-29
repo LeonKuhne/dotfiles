@@ -6,11 +6,6 @@
 # FUNCTIONS 
 #            
 
-# this script has perms
-function reboot() {
-  bash -c reboot
-}
-
 # randomize color prompt
 function rand_prompt() {
   PROMPT="%F{$((1+RANDOM%255))}>%f "
