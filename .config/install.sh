@@ -29,6 +29,7 @@ brew install kitty
 brew install pillow
 brew install ranger
 brew install wget
+brew install jq
 
 # setup directory structure
 mkdir Projects
