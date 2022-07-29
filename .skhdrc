@@ -1,3 +1,7 @@
+# reload
+cmd + shift - c : brew services restart skhd && brew services restart yabai
+
+# fullscreen
 cmd + shift - f : yabai -m window --toggle zoom-fullscreen
 
 # open terminal
