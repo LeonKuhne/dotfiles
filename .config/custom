@@ -18,7 +18,7 @@ function rand_bg() {
 }
 
 function fill() {
-  python -c "import shutil; print('$1'*shutil.get_terminal_size().columns)"
+  python3 -c "import shutil; print('$1'*shutil.get_terminal_size().columns)"
 }
 
 # indent a multiline command
