@@ -16,6 +16,7 @@ alias pip="pip3"
 alias ls="ls --color" 
 alias cd="nav $@"   # ranger navigation
 alias cc="clear && c $@" # clear and change
+alias p="c ~/Projects"
 
 
 # setup
