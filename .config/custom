@@ -30,8 +30,13 @@ function indent() {
 
 # set terminal theme
 function theme() {
-  theme_url=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/$1.conf
-  wget "$theme_url" -P ~/.config/kitty/kitty-themes/themes
+  theme_dir=~/.config/kitty/kitty-themes/themes
+  # aquire theme if new
+  if [ ! -f "$theme_dir/$1.conf" ]; then
+    theme_url=https://raw.githubusercontent.com/dexpota/kitty-themes/master/themes/$1.conf
+    wget "$theme_url" -P $theme_dir
+  fi
+  # link the loaded theme
   ln -s ~/.config/kitty/kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
 }
 
