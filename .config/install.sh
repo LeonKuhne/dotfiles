@@ -15,8 +15,9 @@ brew install kitty
 # install scripts
 git init
 git remote add origin https://github.com/lxk1170/dotfiles.git
-git pull origin complex
+git pull --set-upstream origin complex
 chmod +x ~/.config/custom
+
 
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
