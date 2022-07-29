@@ -30,6 +30,7 @@
 .IdentityService
 .config/lwd
 .swp
+.Trash
 
 !**/*.conf
 !**/config
