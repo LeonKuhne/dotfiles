@@ -27,6 +27,12 @@ ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
 chmod +x ~/.config/custom
 touch ~/.config/lwd
 
+echo "basic setup complete"
+
+# install programs
+# NOTE: comment these before running as needed
+curl https://sh.rustup.rs -sSf | sh
+
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
 # must manually add ssh key to github
