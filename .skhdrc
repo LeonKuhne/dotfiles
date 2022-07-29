@@ -1,6 +1,9 @@
 # reload
 cmd + shift - c : brew services restart skhd && brew services restart yabai
 
+# dmenu
+cmd - d : dmenu-mac
+
 # fullscreen
 cmd + shift - f : yabai -m window --toggle zoom-fullscreen
 
