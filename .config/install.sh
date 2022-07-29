@@ -28,6 +28,7 @@ ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
 # fix custom scripts
 chmod +x ~/.config/custom
 touch ~/.config/lwd
+brew install ranger
 
 echo "basic setup complete"
 
