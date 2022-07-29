@@ -17,6 +17,7 @@ alias ls="ls --color"
 alias cc="clear && c $@" # clear and change
 alias cd="nav $@"   # ranger navigation
 alias p="cd ~/Projects"
+alias h="cd ~"
 
 
 # setup
