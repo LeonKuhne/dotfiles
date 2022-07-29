@@ -7,7 +7,7 @@ BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 export PATH=$PATH:/usr/local/bin
-export firefox="/Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox"
+export BROWSER="/Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox"
 
 . ~/.config/custom
 
