@@ -6,6 +6,7 @@ C_DIR=".cd"
 BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
+export PATH=$PATH:/usr/local/bin
 
 . ~/.config/custom
 
@@ -18,7 +19,6 @@ alias cc="clear && c $@" # clear and change
 
 # backup config 
 backup "autosave" > /dev/null 2>&1
-
 # setup
 back # start at last working directory
 rand_prompt # with random color
