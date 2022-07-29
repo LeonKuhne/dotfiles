@@ -6,6 +6,7 @@ C_DIR=".cd"
 BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
+BROWSER=
 export PATH=$PATH:/usr/local/bin
 
 . ~/.config/custom
