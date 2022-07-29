@@ -38,7 +38,7 @@ function theme() {
 
 # git project
 function get() {
-  sudo git clone git@github.com:lxk1170/$1.git
+  git clone git@github.com:lxk1170/$1.git
 }
 
 # git quickly
