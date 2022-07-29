@@ -31,12 +31,14 @@ echo "basic setup complete"
 
 # setup display manager
 brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
 sudo yabai --install-sa
 sudo yabai --load-sa
 echo "copy the line and get ready to add it"
 echo "$(whoami) ALL = (root) NOPASSWD: sha256:$(shasum -a 256 $(which yabai))) $(which yabai) --load-sa" && read
 sudo visudo -f /private/etc/sudoers.d/yabai
 brew services start yabai
+brew services start skhd
 
 # install programs
 curl https://sh.rustup.rs -sSf | sh
