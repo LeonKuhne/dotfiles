@@ -30,7 +30,7 @@ touch ~/.config/lwd
 echo "basic setup complete"
 
 # install programs
-# NOTE: comment these before running as needed
+brew install python3
 curl https://sh.rustup.rs -sSf | sh
 
 # must reboot for programmer dvorak
