@@ -12,7 +12,6 @@ sudo rm -f /System/Library/Caches/com.apple.IntlDataCache.le*
 sudo cp ~/Library/Preferences/com.apple.HIToolbox.plist /Library/Preferences/
 
 # a better terminal
-brew install kitty
 
 # setup git
 git config --global user.name "lxk1170"
@@ -28,8 +27,9 @@ ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
 # fix custom scripts
 chmod +x ~/.config/custom
 touch ~/.config/lwd
-brew install ranger
+brew install kitty
 brew install pillow
+brew install ranger
 
 echo "basic setup complete"
 
