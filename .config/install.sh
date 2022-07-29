@@ -15,6 +15,7 @@ brew install kitty
 # install scripts
 git config --global user.name "lxk1170"
 git config --global user.email "lxk1170@rit.edu"
+git config pull.rebase true
 git init
 git remote add origin https://github.com/lxk1170/dotfiles.git
 git pull --set-upstream origin complex
