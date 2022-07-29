@@ -37,7 +37,9 @@ function theme() {
     wget "$theme_url" -P $theme_dir
   fi
   # link the loaded theme
-  ln -s ~/.config/kitty/kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+  destination=~/.config/kitty/theme.conf
+  rm ~/.config/kitty/theme.conf
+  ln -s $theme_dir/$1.conf $destination 
 }
 
 # git quickly
