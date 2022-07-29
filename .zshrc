@@ -11,6 +11,7 @@ source ~/.config/custom
 
 # aliases
 alias python="python3"
+alias pip="pip3"
 alias ls="ls --color" 
 alias cd="nav"   # ranger navigation
 alias cc="clear && c $@" # clear and change
