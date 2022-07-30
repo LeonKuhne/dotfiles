@@ -23,7 +23,7 @@ alias h="c ~"
 alias ch="cc ~"
 alias x="exit"
 alias q="exit"
-source $PROJ_DIR/Spotlight-Search/config.sh
+source $PROJ_DIR/Spotlight_Shortcuts/config.sh
 alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 
 # setup
