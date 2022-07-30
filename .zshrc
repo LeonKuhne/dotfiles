@@ -13,7 +13,6 @@ export PATH=$PATH:/usr/local/bin
 
 # personals
 PROJ_DIR="$HOME/Projects"
-SPOTS_DIR="$PROJ_DIR/Spotlight-Shortcuts"
 alias python="python3"
 alias pip="pip3"
 alias ls="ls --color" 
@@ -24,7 +23,8 @@ alias h="c ~"
 alias ch="cc ~"
 alias x="exit"
 alias q="exit"
-alias s=". $SPOTS_DIR/edit.sh"
+source $PROJ_DIR/Spotlight-Search/config.sh
+alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 
 # setup
 mute rmdir Pictures Movies Music
