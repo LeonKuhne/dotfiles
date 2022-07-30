@@ -28,6 +28,10 @@ function indent() {
   done
 }
 
+function mute() {
+  $@ > /dev/null 2>&1
+}
+
 # set terminal theme
 theme_config=~/.config/kitty/theme.conf
 function theme() {
