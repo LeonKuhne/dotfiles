@@ -15,6 +15,7 @@ sudo cp ~/Library/Preferences/com.apple.HIToolbox.plist /Library/Preferences/
 git config --global user.name "lxk1170"
 git config --global user.email "lxk1170@rit.edu"
 git config pull.rebase true
+git config push.default current
 git init
 git remote add origin git@github.com:lxk1170/dotfiles.git
 git pull origin complex
