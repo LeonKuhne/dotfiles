@@ -29,8 +29,8 @@ function indent() {
 }
 
 function mute() {
-  while read input; do
-    $input > /dev/null 2>&1
+  while read spo; do
+    $spo > /dev/null 2>&1
   done
 }
 
