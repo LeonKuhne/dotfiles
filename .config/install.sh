@@ -17,7 +17,7 @@ git config --global user.email "lxk1170@rit.edu"
 git config pull.rebase true
 git init
 git remote add origin git@github.com:lxk1170/dotfiles.git
-git pull --set-upstream origin complex
+git pull origin complex
 
 # generate ssh key
 ssh-keygen -t ed25519 -C "lxk1170@rit.edu"
