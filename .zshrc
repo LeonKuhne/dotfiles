@@ -23,7 +23,6 @@ alias ch="cc ~"
 alias x="exit"
 alias s=". ~/Projects/Spotlight-Shortcuts/edit.sh"
 
-
 # setup
 mute rmdir Pictures Movies Music
 backup "autosave" # backup config 
