@@ -23,13 +23,15 @@ function fill() {
 
 # indent a multiline command
 function indent() {
-  while read spo; do
-    echo "  $spo";
+  while read input; do
+    echo "  $input";
   done
 }
 
 function mute() {
-  $@ > /dev/null 2>&1
+  while read input; do
+    $input > /dev/null 2>&1
+  done
 }
 
 # set terminal theme
