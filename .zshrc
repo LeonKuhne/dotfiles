@@ -12,12 +12,14 @@ export PATH=$PATH:/usr/local/bin
 . ~/.config/custom
 
 # personals
+PROJ_DIR="$HOME/Projects"
+SPOTS_DIR="$PROJ_DIR/lwd"
 alias python="python3"
 alias pip="pip3"
 alias ls="ls --color" 
 alias cc="clear && c $@" # clear and change
 alias cd="nav $@"   # ranger navigation
-alias p="cd ~/Projects"
+alias p="cd $PROJ_DIR"
 alias h="c ~"
 alias ch="cc ~"
 alias x="exit"
