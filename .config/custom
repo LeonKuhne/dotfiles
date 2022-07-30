@@ -30,6 +30,7 @@ function indent() {
 
 function mute() {
   while read input; do
+    echo "hi"
     #$input > /dev/null 2>&1
   done
 }
