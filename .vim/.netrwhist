@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/x/Projects/Spotlight-Shortcuts/build'
 let g:netrw_dirhist_4='/Users/x/.config'
 let g:netrw_dirhist_3='/Users/x/.config/kitty'
 let g:netrw_dirhist_2='/Users/x/Projects/space-fuckers/scripts'
