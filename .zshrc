@@ -25,6 +25,7 @@ alias s=". ~/Projects/Spotlight-Shortcuts/edit.sh"
 
 
 # setup
+rmdir Pictures Movies Music
 backup "autosave" > /dev/null 2>&1 # backup config 
 back # start at last working directory
 rand_prompt # with random color
