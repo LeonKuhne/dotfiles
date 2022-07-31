@@ -48,9 +48,10 @@ sudo visudo -f /private/etc/sudoers.d/yabai
 brew services start yabai
 brew services start skhd
 
-# install programs (rust)
+# setup rust
 curl https://sh.rustup.rs -sSf | sh
 git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
+brew install rust-analyzer
 
 # must reboot for programmer dvorak
 echo "reboot to finish installation"

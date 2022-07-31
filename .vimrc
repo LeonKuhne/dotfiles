@@ -16,6 +16,7 @@ set number
 set hlsearch 
 
 let g:ale_linters = { 'rust': ['analyzer'] }
+let g:ale_fixers = { 'rust': ['rustfmt', 'trim_whitespace', 'remove_trailing_lines'] }
 
 " autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
