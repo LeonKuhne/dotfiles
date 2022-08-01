@@ -17,14 +17,14 @@ alias python="python3"
 alias pip="pip3"
 alias ls="ls --color" 
 alias cc="clear && c $@" # clear and change
-alias cd="nav $@"   # ranger navigation
-alias p="cd $PROJ_DIR"
+alias n="nav $@"   # ranger navigation
+alias p="n $PROJ_DIR"
 alias h="c ~"
 alias ch="cc ~"
 alias x="exit"
 alias q="exit"
 source $PROJ_DIR/Spotlight-Shortcuts/config.sh
-alias s="./$SPOTLIGHT_SEARCH_DIR/edit.sh"
+alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 
 # setup
 mute rmdir Pictures Movies Music
