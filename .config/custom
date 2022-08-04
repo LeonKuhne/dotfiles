@@ -36,8 +36,7 @@ function browse() {
     echo "usage: browse <url>"
     return
   fi
-  xdg-open -a firefox-developer-edition -g "$1"
-  xdg-open -a firefox-developer-edition # focus the window
+  firefox-developer-edition -g "$1"
 }
 
 # search the internet
