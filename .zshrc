@@ -27,11 +27,11 @@ alias x='exit'
 alias v='nvim'
 alias vim='nvim'
 alias ls='ls --color=auto'
-alias p='c $PROJECTS'
 alias t='c $TOOLS'
 alias s='vim $PROJECTS/smenu/smenu.py'
 alias cc="clear && c $@"
 alias n="nav $@"
+alias p='n $PROJECTS'
 
 function lwd {
   export USE_LWD=$(cat ~/.lwdenabled)
