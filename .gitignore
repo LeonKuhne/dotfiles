@@ -21,3 +21,4 @@
 .wget-hsts
 .npm/anonymous-cli-metrics.json
 .secret/*
+.minecraft
