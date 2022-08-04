@@ -36,7 +36,9 @@ function browse() {
     echo "usage: browse <url>"
     return
   fi
+  # TODO currently broken:
   firefox-developer-edition -g "$1"
+  firefox-developer-edition # focus the window
 }
 
 # search the internet
