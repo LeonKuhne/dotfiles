@@ -1,0 +1,83 @@
+#!/bin/zsh
+
+#
+# MY
+# CUSTOM 
+# FUNCTIONS 
+#            
+
+# randomize color prompt
+function rand_prompt() {
+  PROMPT="%F{$((1+RANDOM%255))}>%f "
+}
+
+# randomize background color
+function rand_bg() {
+  convert -size 100x100 xc:#990000 $BG_PATH #generate image
+  #sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$BG_PATH'" && killall Dock 
+}
+
+# indent a multiline command
+function indent() {
+  while read spo; do
+    echo "  $spo";
+  done
+}
+
+# git quickly
+function backup() {
+  git add .
+  git commit -m "$@"
+  git push
+}
+
+function browse() {
+  if [ -z $1 ]; then
+    echo "usage: browse <url>"
+    return
+  fi
+  open -a firefox -g "$1"
+  open -a firefox # focus the window
+}
+
+# search the internet
+function go() {
+  url=$(echo "$@" | jq -sRr @uri)
+  url="https://www.google.com/search?q=$url"
+  browse $url
+}
+
+function help() {
+  if [ -z "$@" ]; then
+    echo "usage: help <script>"
+    return
+  fi
+  cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
+}
+
+# change [directory]
+C_FILE=".cd"
+function c() {
+  if [ -z "$@" ]; then
+    ls --color .
+  else 
+    cd $@
+    pwd
+    pwd > $LWD_CONFIG # store last working directory
+    rand_prompt # indicate change with color
+    if [ -f "$(pwd)/$C_FILE" ]; then # execute directory script
+      . ./"$C_FILE"
+    fi
+  fi
+}
+
+# start at last working directory
+function back() {
+  c $(cat $LWD_CONFIG)
+}
+
+# navigate with ranger
+function nav() {
+  bash -c "ranger $@ --choosedir=$LWD_CONFIG"
+  back
+}

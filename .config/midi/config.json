@@ -1,0 +1,11 @@
+{
+  "timeout": 200,
+  "default_port": 0,
+  "displays": ["DVI-D-1", "DVI-D-2", "DP-1"],
+  "bindings": [
+    {
+      "55": "DoubleBind('spotify', 'pkill spotify', 1)",
+      "72": "ReleaseBind('/home/id/Projects/tools/image_today.sh')"
+    }
+  ]
+}

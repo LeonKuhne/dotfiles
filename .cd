@@ -1,0 +1,7 @@
+echo "Custom Commands:"
+ls /usr/local/bin
+echo
+
+echo "Config Updates:"
+git status -s
+echo

@@ -1,0 +1,20 @@
+[Added Associations]
+text/plain=org.gnome.gedit.desktop;
+application/pdf=org.inkscape.Inkscape.desktop;org.gnome.Evince.desktop;libreoffice-draw.desktop;
+x-scheme-handler/http=org.gnome.Epiphany.desktop;userapp-Nightly-JWTTI1.desktop;
+x-scheme-handler/https=org.gnome.Epiphany.desktop;userapp-Nightly-JWTTI1.desktop;
+text/html=org.gnome.Epiphany.desktop;userapp-Nightly-JWTTI1.desktop;
+application/xhtml+xml=org.gnome.Epiphany.desktop;userapp-Nightly-JWTTI1.desktop;
+image/jpeg=org.gnome.Epiphany.desktop;
+
+[Default Applications]
+x-scheme-handler/http=userapp-Nightly-JWTTI1.desktop
+x-scheme-handler/https=userapp-Nightly-JWTTI1.desktop
+text/html=userapp-Nightly-JWTTI1.desktop
+application/xhtml+xml=userapp-Nightly-JWTTI1.desktop
+x-scheme-handler/chrome=userapp-Nightly-JWTTI1.desktop
+application/x-extension-htm=userapp-Nightly-JWTTI1.desktop
+application/x-extension-html=userapp-Nightly-JWTTI1.desktop
+application/x-extension-shtml=userapp-Nightly-JWTTI1.desktop
+application/x-extension-xhtml=userapp-Nightly-JWTTI1.desktop
+application/x-extension-xht=userapp-Nightly-JWTTI1.desktop

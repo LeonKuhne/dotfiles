@@ -1,0 +1,5 @@
+{
+  "PATH": "/home/x/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/home/x/.dotnet/tools:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin",
+  "openDevToolsAtStartup": false,
+  "uuid": "e1ed0267-626c-41ee-bf12-f0efb339f460"
+}

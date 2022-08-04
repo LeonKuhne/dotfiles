@@ -1,0 +1,3 @@
+[v1]
+"cargo-dylint 2.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-dylint"]
+"dylint-link 2.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = ["dylint-link"]

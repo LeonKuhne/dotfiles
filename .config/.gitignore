@@ -1,0 +1,9 @@
+*/*
+
+!**/*.conf
+!**/config
+!**/*.json
+!**/**/*.fish
+!**/fish/*
+
+zoomus.conf

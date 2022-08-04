@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/x/.vim'
+let g:netrw_dirhist_6='/home/x/Projects/mnd'
+let g:netrw_dirhist_5='/home/x/Projects/mnd/src'
+let g:netrw_dirhist_4='/home/x/Projects/mnd'
+let g:netrw_dirhist_3='/home/x/Projects/mnd/src'
+let g:netrw_dirhist_2='/home/x/Projects/ideas'
+let g:netrw_dirhist_1='/home/x/Projects/sequencer/samples'
+let g:netrw_dirhist_0='/home/x'
+let g:netrw_dirhist_9='/home/id/Projects/idorg'
+let g:netrw_dirhist_8='/home/id/Projects/idorg/build'

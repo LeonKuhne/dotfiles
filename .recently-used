@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecentFiles>
+  <RecentItem>
+    <URI>file:///home/x/Projects/RaftElevate/src/TestProject.cs</URI>
+    <Mime-Type>text/x-csharp</Mime-Type>
+    <Timestamp>1656160477</Timestamp>
+    <Private>TestProject.cs [TestProject]</Private>
+    <Groups>
+      <Group>MonoDevelop Files</Group>
+    </Groups>
+  </RecentItem>
+  <RecentItem>
+    <URI>file:///home/x/Projects/RaftElevate/TestProject.sln</URI>
+    <Mime-Type>application/x-sln</Mime-Type>
+    <Timestamp>1656160470</Timestamp>
+    <Private>TestProject</Private>
+    <Groups>
+      <Group>MonoDevelop Projects</Group>
+    </Groups>
+  </RecentItem>
+</RecentFiles>

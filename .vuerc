@@ -1,0 +1,22 @@
+{
+  "useTaobaoRegistry": false,
+  "presets": {
+    "aaa-starter": {
+      "useConfigFiles": true,
+      "plugins": {
+        "@vue/cli-plugin-babel": {},
+        "@vue/cli-plugin-router": {
+          "historyMode": false
+        },
+        "@vue/cli-plugin-eslint": {
+          "config": "prettier",
+          "lintOn": [
+            "save"
+          ]
+        }
+      },
+      "vueVersion": "2",
+      "cssPreprocessor": "node-sass"
+    }
+  }
+}

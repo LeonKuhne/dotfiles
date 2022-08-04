@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# select display manager
+
+if dialog --stdout --no-label 'gdm' --yes-label 'sway' --yesno 'Which display manager?' 0 0; then
+  exec sway
+else
+  systemctl start gdm
+  echo  "start gdm"
+fi

@@ -1,0 +1,60 @@
+[General Settings]
+First Time=false
+Last Document Size=222,81
+Open Images in the Same Window=false
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Documents/signature.png,file:$HOME/Documents/signature.png
+detailViewIconSize=0
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAeAAAAAY/wBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AQAAAAAAAAeAAAACDQD///8AAAeAAAADpQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgCAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIAAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Window-Maximized 1080x1920=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1080x1920=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 Window-Maximized 1440x900=true
+XWAYLAND0 XWAYLAND1 XWAYLAND2 XPosition=0
+XWAYLAND0 XWAYLAND1 XWAYLAND2 YPosition=1440
+XWAYLAND1 XWAYLAND2 XWAYLAND3 Window-Maximized 1080x1920=true
+XWAYLAND1 XWAYLAND2 XWAYLAND3 XPosition=0
+XWAYLAND1 XWAYLAND2 XWAYLAND3 YPosition=1440
+
+[MainWindow][Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[MimeType Properties Version 1.2-3]
+Configurable Color Depth=image/png,image/bmp,image/x-pcx,image/x-rgb,image/x-xpixmap
+Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
+Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
+
+[Recent Files]
+File1[$e]=$HOME/Documents/school/MKTG/Steps in Ad Campaign.png
+File2[$e]=$HOME/Documents/school/MKTG/Communication Mediums.png
+File3[$e]=$HOME/Documents/school/MKTG/Choosing Social Media Platform.png
+File4[$e]=$HOME/Documents/school/MKTG/Company Objective Orientation.png
+File5[$e]=$HOME/Documents/school/CSCI/Screenshot_2020-11-13 PDM 13 - NoSQL - CSCI 320 01-04 - Principles of Data Management.png
+Name1[$e]=Steps in Ad Campaign.png
+Name2[$e]=Communication Mediums.png
+Name3[$e]=Choosing Social Media Platform.png
+Name4[$e]=Company Objective Orientation.png
+Name5[$e]=Screenshot_2020-11-13 PDM 13 - NoSQL - CSCI 320 01-04 - Principles of Data Management.png
+
+[Tool Settings]
+Last Used Tool=8
+Tool Widget Brush Col=0
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=1
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=0
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=1
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10
