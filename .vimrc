@@ -14,6 +14,7 @@ set softtabstop=2
 set expandtab
 set number
 set hlsearch 
+set foldenable
 
 colorscheme neon-dark-256
 
