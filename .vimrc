@@ -11,7 +11,6 @@ set number
 set hlsearch 
 set foldmethod=indent
 set foldenable
-ColorHighlight
 
 autocmd FileType typescript setlocal formatprg=prettier\ --parser\ typescript
 autocmd BufRead,BufNewFile *.rs set filetype=rust
