@@ -5,7 +5,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "neon-dark"
+let colors_name = "leon-dark"
 
 " Vim >= 7.0 specific colors
 if version >= 700
