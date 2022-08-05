@@ -1,20 +1,23 @@
 syntax enable
 filetype plugin indent on
 
-autocmd FileType typescript setlocal formatprg=prettier\ --parser\ typescript
-autocmd BufRead,BufNewFile *.rs set filetype=rust
-autocmd BufRead,BufNewFile *.py,*.rs setlocal tabstop=4 shiftwidth=2 softtabstop=2
-autocmd BufRead,BufNewFile *.tsx setlocal tabstop=2 shiftwidth=2 softtabstop=2
-
-set t_Co=256
 set ruler "lxk1170"
+set t_Co=256
 set tabstop=4
 set shiftwidth=2
 set softtabstop=2
 set expandtab
 set number
 set hlsearch 
+set foldmethod=indent
 set foldenable
+
+autocmd FileType typescript setlocal formatprg=prettier\ --parser\ typescript
+autocmd BufRead,BufNewFile *.rs set filetype=rust
+autocmd BufRead,BufNewFile *.rs set foldmethod=syntax
+autocmd BufRead,BufNewFile *.py,*.rs setlocal tabstop=4 shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile *.tsx setlocal tabstop=2 shiftwidth=2 softtabstop=2
+
 
 colorscheme neon-dark-256
 
