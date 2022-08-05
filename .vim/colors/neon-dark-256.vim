@@ -17,7 +17,7 @@ highlight PmenuSel guifg=#ffffff guibg=#93b5bf ctermfg=231 ctermbg=109
 endif
 
 " General colors
-highlight Folded guibg=#a0a0a0 ctermbg=231
+highlight Folded guibg=#2d2d1f ctermbg=236
 highlight Cursor guibg=#ffffff ctermbg=231
 highlight Normal guifg=#f1f1f1 guibg=#000000 ctermfg=255 ctermbg=16
 highlight NonText guifg=#a0a0a0 guibg=#000000 ctermfg=247 ctermbg=16
