@@ -32,6 +32,7 @@ alias s='vim $PROJECTS/smenu/smenu.py'
 alias cc="clear && c $@"
 alias n="nav $@"
 alias p='n $PROJECTS'
+alias html='cp ~/.config/template.html ./index.html'
 
 function lwd {
   export USE_LWD=$(cat ~/.lwdenabled)
