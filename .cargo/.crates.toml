@@ -1,4 +1,5 @@
 [v1]
+"basic-http-server 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)" = ["basic-http-server"]
 "cargo-dylint 2.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = ["cargo-dylint"]
 "dylint-link 2.0.9 (registry+https://github.com/rust-lang/crates.io-index)" = ["dylint-link"]
 "wasm-server-runner 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)" = ["wasm-server-runner"]
