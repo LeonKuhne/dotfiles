@@ -18,6 +18,7 @@ export TOOLS=$PROJECTS/tools
 export USE_LWD=$(cat ~/.lwdenabled)
 export LWD_CONFIG=~/.lwd
 export LWD=$(cat $LWD_CONFIG)
+echort PATH=$PATH:$HOME/.cargo/bin
 
 # raft dev
 export RAFT_MANAGED_PATH=/mnt/big/SteamLibrary/steamapps/common/Raft/Raft_Data/Managed
