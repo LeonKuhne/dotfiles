@@ -19,7 +19,7 @@ endif
 " General colors
 highlight Folded guibg=#2d2d1f ctermbg=236
 highlight Cursor guibg=#ffffff ctermbg=231
-highlight Normal guifg=#f1f1f1 guibg=#000000 ctermfg=255 ctermbg=16
+"highlight Normal guifg=#f1f1f1 guibg=#000000 ctermfg=255 ctermbg=16
 highlight NonText guifg=#a0a0a0 guibg=#000000 ctermfg=247 ctermbg=16
 highlight LineNr guifg=#2d2d1f guibg=#000000 ctermfg=236 ctermbg=16
 highlight SignColumn guibg=#000000 ctermbg=16
