@@ -9,6 +9,7 @@ let colors_name = "leon-dark"
 
 " Vim >= 7.0 specific colors
 if version >= 700
+
 highlight CursorLine guifg=#ffffff guibg=#303030 ctermfg=231 ctermbg=236 cterm=NONE
 highlight CursorColumn guibg=#2d2d2d ctermbg=236
 highlight MatchParen guifg=#1515ff guibg=#303030 ctermfg=21 ctermbg=236
@@ -19,7 +20,6 @@ endif
 " General colors
 highlight Folded guibg=#2d2d1f ctermbg=236
 highlight Cursor guibg=#ffffff ctermbg=231
-"highlight Normal guifg=#f1f1f1 guibg=#000000 ctermfg=255 ctermbg=16
 highlight NonText guifg=#a0a0a0 guibg=#000000 ctermfg=247 ctermbg=16
 highlight LineNr guifg=#2d2d1f guibg=#000000 ctermfg=236 ctermbg=16
 highlight SignColumn guibg=#000000 ctermbg=16
@@ -37,7 +37,6 @@ highlight TabLineSel guifg=#ffffff guibg=#000000 ctermfg=231 ctermbg=16
 
 "Linter and error checkers
 highlight SpellBad guifg=#ffffff guibg=#ff0000 ctermfg=231 ctermbg=196
-
 
 
 
@@ -107,6 +106,11 @@ hi phpMemberSelector    guifg=#48ffc2 ctermfg=85
 
 hi phpDocTags           guifg=#00d5ff ctermfg=45
 
+
+
+" Custom
+hi Normal ctermfg=197 ctermbg=16
+hi MatchParen ctermfg=55 ctermbg=16
 
 
 "guifg=#a7a3ff ctermfg=147 light teal / grey
