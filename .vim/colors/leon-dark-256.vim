@@ -107,10 +107,8 @@ hi phpMemberSelector    guifg=#48ffc2 ctermfg=85
 hi phpDocTags           guifg=#00d5ff ctermfg=45
 
 
-
 " Custom
 hi Normal ctermfg=197 ctermbg=16
-hi MatchParen ctermfg=55 ctermbg=16
 
 
 "guifg=#a7a3ff ctermfg=147 light teal / grey
