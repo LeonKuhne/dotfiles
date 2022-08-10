@@ -12,6 +12,11 @@ set hlsearch
 set foldmethod=indent
 set foldenable
 
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+
 colorscheme leon-dark-256
 
 autocmd FileType typescript setlocal formatprg=prettier\ --parser\ typescript
