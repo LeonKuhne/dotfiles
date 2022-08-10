@@ -12,10 +12,7 @@ set hlsearch
 set foldmethod=indent
 set foldenable
 
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+let g:rainbow_active = 1
 
 colorscheme leon-dark-256
 
