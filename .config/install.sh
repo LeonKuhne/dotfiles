@@ -51,6 +51,7 @@ brew services start skhd
 # setup rust
 curl https://sh.rustup.rs -sSf | sh
 git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.vim
+brew install michaeleisel/zld/zld
 brew install rust-analyzer
 
 # must reboot for programmer dvorak
