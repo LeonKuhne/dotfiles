@@ -27,6 +27,7 @@ alias q="exit"
 source $PROJ_DIR/Spotlight-Shortcuts/config.sh
 alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
+alias edit="n src"
 
 # setup
 mute rmdir Pictures Movies Music
