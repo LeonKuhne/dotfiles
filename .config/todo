@@ -38,6 +38,10 @@ function todo() {
     completed=$(wc -l $items)
     echo "Tasks completed: $completed"
 
+  # show all items
+  elif [ "$1" = "all" ]; then
+    echo "Tasks: \n$(cat $todo_file)"
+
   # show help
   else
     echo "usage: todo [command]"
