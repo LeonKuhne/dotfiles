@@ -4,7 +4,7 @@ function todo() {
   div="| "
   todo_file=.todo
   # show in-progress items
-  if [ -z "$1" ] | [ "$1" = "list" ]; then
+  if [ -z "$1" ] || [ "$1" = "list" ]; then
     items=$(cat $todo_file | grep "^-$div")
     if [ -z "$items" ]
     then echo "No active tasks"
