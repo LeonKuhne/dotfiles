@@ -11,14 +11,6 @@ function todo() {
     else echo "Doing: \n$items"
     fi
 
-  # show backlog items
-  elif [ "$1" = "more" ]; then
-    items=$(cat $todo_file | grep "^ $div")
-    if [ -z "$items" ]
-    then echo "No active tasks"
-    else echo "Backlog: \n$items"
-    fi
-
   # track a new item to do
   elif [ "$1" = "add" ]; then
     if [ ! -z "$2" ]
@@ -31,6 +23,20 @@ function todo() {
   # modify backlog items
   elif [ "$1" = "edit" ]; then
     vim $todo_file
+
+  # show backlog items
+  elif [ "$1" = "more" ]; then
+    items=$(cat $todo_file | grep "^ $div")
+    if [ -z "$items" ]
+    then echo "No more tasks"
+    else echo "Backlog: \n$items"
+    fi
+
+  # show backlog items
+  elif [ "$1" = "done" ]; then
+    items=$(cat $todo_file | grep "^x$div")
+    completed=$(wc -l $items)
+    echo "Tasks completed: $completed"
 
   # show help
   else
