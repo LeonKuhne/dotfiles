@@ -1,0 +1,40 @@
+#!/bin/zsh
+
+function todo() {
+  div="| "
+  todo_file=.todo
+  # show in-progress items
+  if [ -z "$1" ]; then
+    items=$(cat $todo_file | grep "^-$div")
+    if [ -z "$items" ]
+    then echo "No active tasks"
+    else echo "Doing: \n$items"
+    fi
+
+  # show backlog items
+  elif [ "$1" = "more" ]; then
+    items=$(cat $todo_file | grep "^ $div")
+    if [ -z "$items" ]
+    then echo "No active tasks"
+    else echo "Backlog: \n$items"
+    fi
+
+  # track a new item to do
+  elif [ "$1" = "add" ]; then
+    if [ ! -z "$2" ]
+    then
+      echo " $div$2" >> $todo_file
+      echo "Task added"
+    else echo "usage: todo add <description>"
+    fi
+
+  # modify backlog items
+  elif [ "$1" = "edit" ]; then
+    vim $todo_file
+
+  # show help
+  else
+    echo "usage: todo [command]"
+    echo "commands: more, add, edit"
+  fi
+}

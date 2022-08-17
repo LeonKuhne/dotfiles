@@ -11,6 +11,7 @@ BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 
 . ~/.config/custom
+. ~/.config/todo
 
 # personals
 PROJ_DIR="$HOME/Projects"
