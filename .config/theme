@@ -24,14 +24,14 @@ export C_EMERG=$(color 1 7 1)
 # handy helper functions 
 function c_log() { echo -n "$1" && echo ${@:2} && echo -n "$C_RESET"; }
 # same as kernal log levels
-function debug() { c_log "$C_DEBUG" }
-function info() { c_log "$C_INFO" }
-function notice() { c_log "$C_NOTICE" }
-function warn() { c_log "$C_WARN" }
-function err() { c_log "$C_ERR" }
-function crit() { c_log "$C_CRIT" }
-function alert() { c_log "$C_ALERT" }
-function emerg() { c_log "$C_EMERG" }
+function debug() { c_log "$C_DEBUG" $@ }
+function info() { c_log "$C_INFO" $@ }
+function notice() { c_log "$C_NOTICE" $@ }
+function warn() { c_log "$C_WARN" $@ }
+function err() { c_log "$C_ERR" $@ }
+function crit() { c_log "$C_CRIT" $@ }
+function alert() { c_log "$C_ALERT" $@ }
+function emerg() { c_log "$C_EMERG" $@ }
 
 # list all available color constants
 function COLORS() {
