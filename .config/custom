@@ -79,8 +79,12 @@ function help() {
     echo "usage: help <script>"
     return
   fi
-  debug
-  cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
+  
+  cat "$@" |
+    grep "^function" |
+    sed s/function\ //g |
+    sed s/\(\)\ \{//g |
+    xargs python3 -c "import sys; [print(i) for i in sys.argv[1:]]"
 }
 
 # change [directory]
