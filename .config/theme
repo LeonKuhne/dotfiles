@@ -22,7 +22,7 @@ export C_CRIT=$(color 1 0 6)
 export C_ALERT=$(color 1 0 5)
 export C_EMERG=$(color 1 7 1)
 
-function debug() { echo "$C_DEBUG" && echo $@ && echo "$C_RESET"; }
+function warn() { echo "$C_DEBUG" && echo $@ && echo "$C_RESET"; }
 
 # list all available color constants
 function COLORS() {
