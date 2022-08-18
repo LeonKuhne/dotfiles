@@ -12,8 +12,8 @@ function colors() {
 
 function color() {
   style=1 # bold
-  fg=$1
-  bg=$2
+  fg="$1"
+  bg="$2"
   echo "\033[$style;$fg;$bg"
 }
 
