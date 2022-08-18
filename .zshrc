@@ -8,7 +8,6 @@ LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
-OTHER_LDFLAGS = -fuse-ld=/usr/local/bin/zld
 export PATH=$PATH:/usr/local/bin
 
 . ~/.config/easy
