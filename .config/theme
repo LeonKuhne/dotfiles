@@ -14,13 +14,20 @@ export C_RESET="\033[0m"
 
 # copied from linux kernal log levels
 export C_DEBUG=$(color 4 0)
-export C_INFO="\033[1;32;40m"
-export C_NOTICE="\033[1;30;42m"
-export C_WARN="\033[1;36;40m"
-export C_ERR="\033[1;35;40m"
-export C_CRIT="\033[1;30;46m"
-export C_ALERT="\033[1;31;40m"
-export C_EMERG="\033[1;37;41m"
+export C_INFO=$(color 32 0)
+export C_NOTICE=$(color 30 2)
+export C_WARN=$(color 36 0)
+export C_ERR=$(color 35 0)
+export C_CRIT=$(color 30 6)
+export C_ALERT=$(color 31 0)
+export C_EMERG=$(color 37 1)
+
+# list all available color constants
+c_script="${BASH_SOURCE}"
+function COLORS() {
+  echo $c_script
+  cat "$0" | grep "C_"
+}
 
 # print out your color palet
 function colors() {
