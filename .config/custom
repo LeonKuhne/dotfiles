@@ -23,8 +23,13 @@ function fill() {
 
 # indent a multiline command
 function indent() {
+  if [ ! -z "$1" ]
+  then prefix="$1"
+  else prefix=" "
+  fi
+
   while read input; do
-    echo "  $input";
+    echo "$prefix $input";
   done
 }
 
