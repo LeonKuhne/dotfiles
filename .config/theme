@@ -23,9 +23,9 @@ export C_ALERT=$(color 31 0)
 export C_EMERG=$(color 37 1)
 
 # list all available color constants
-c_script="${BASH_SOURCE}"
+selfish=$(readlink -f "${BASH_SOURCE}")
 function COLORS() {
-  echo $c_script
+  echo $selfish hi
   cat "$0" | grep "C_"
 }
 
