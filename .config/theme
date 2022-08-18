@@ -13,8 +13,8 @@ function color() {
 export C_RESET=$(color 0 0)
 
 # copied from linux kernal log levels
-export C_DEBUG=$(color 1 2 0)
-export C_INFO=$(color 1 4 0)
+export C_DEBUG=$(color 1 4 0)
+export C_INFO=$(color 1 2 0)
 export C_NOTICE=$(color 1 0 7)
 export C_WARN=$(color 1 6 0)
 export C_ERR=$(color 1 1 0)
