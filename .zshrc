@@ -8,6 +8,7 @@ LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
+OTHER_LDFLAGS = -fuse-ld=/usr/local/bin/zld
 export PATH=$PATH:/usr/local/bin
 
 . ~/.config/easy
@@ -16,18 +17,17 @@ export PATH=$PATH:/usr/local/bin
 . ~/.config/theme
 
 # personals
-PROJ_DIR="$HOME/Projects"
 alias python="python3"
 alias pip="pip3"
 alias ls="ls --color" 
 alias cc="clear && c $@" # clear and change
 alias n="nav $@" # ranger navigation
-alias p="n $PROJ_DIR"
+alias p="n $PROJ"
 alias h="c ~ && ls -a"
 alias ch="cc ~"
 alias x="exit"
 alias q="exit"
-source $PROJ_DIR/Spotlight-Shortcuts/config.sh
+source $PROJ/Spotlight-Shortcuts/config.sh
 alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
