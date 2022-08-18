@@ -38,7 +38,7 @@ function todo() {
   elif [ "$1" = "done" ]; then
     items=$(cat $todo_file | grep "^x$div")
     completed=$(wc -l $items)
-    info "Tasks completed:
+    info "Tasks completed:"
     debug "$completed"
 
   # show all items
