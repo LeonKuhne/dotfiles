@@ -45,7 +45,7 @@ text = []
 for color in sys.argv[1:]:
   if color:
     code = os.environ[color]
-    color = color.replace("C_")
+    color = color.replace("C_", "")
     str = f"{code}{color}{reset}"
     text.append(str)
 print(", ".join(text))'
