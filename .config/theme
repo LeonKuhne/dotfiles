@@ -1,28 +1,19 @@
 #!/bin/sh
-function colors() {
-  for x in {0..8}; do
-    for i in {30..37}; do
-      for a in {40..47}; do
-        echo -ne "\033[$x;$i;$a""m\\\033[$x;$i;$a""m\033[0;37;40m ";
-      done;
-      echo;
-    done;
-  done;
-}
 
+# construct a color
 function color() {
-  style=1 # bold
-  fg="$1"
-  bg="$2"
-  #echo "\033[$style;$fg;$bg"
-  echo -e "\033[""$style;$fg;$bg"")\mhello world"
+  fg=$(($1+30))   # 0-7
+  bg="$(($2+40))" # 0-7
+  style="$3"      # 0-8
+  str="$style;$fg;$bg"
+  echo -en "\033[$style;$fg;${bg}m"
 }
 
 # custom shell agnostic color aliases
 export C_RESET="\033[0m"
 
 # copied from linux kernal log levels
-export C_DEBUG="\033[1;34;40m"
+export C_DEBUG=$(color 4 0)
 export C_INFO="\033[1;32;40m"
 export C_NOTICE="\033[1;30;42m"
 export C_WARN="\033[1;36;40m"
@@ -31,3 +22,15 @@ export C_CRIT="\033[1;30;46m"
 export C_ALERT="\033[1;31;40m"
 export C_EMERG="\033[1;37;41m"
 
+# print out your color palet
+function colors() {
+  for fg in {0..7}; do
+    for bg in {0..7}; do
+      for style in {0..8}; do
+        c=$(color $fg $bg $style)
+        echo -ne "$c($fg,$bg,$style)$C_RESET"
+      done;
+      echo;
+    done;
+  done;
+}
