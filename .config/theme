@@ -11,7 +11,7 @@ function color() {
 }
 
 # custom shell agnostic color aliases
-export C_RESET="\033[0m"
+export C_RESET="\033[0;0m"
 
 # copied from linux kernal log levels
 export C_DEBUG=$(color 4 0)
@@ -28,8 +28,15 @@ function COLORS() {
   grep "^export C_" $self |
     sed "s/^export\ //g" |
     sed "s/=.*$//g" |
-    xargs printf '%02s\n' #| tr '0' '='
-    
+    xargs python3 -c '
+import sys, os
+reset = "\033[0m" 
+for color in sys.argv[1:]:
+  if color:
+    code = os.environ[color]
+    str = f"{code}{color}{reset}"
+    print(str, end=", ")
+print'
     #indent "-"
 }
 
