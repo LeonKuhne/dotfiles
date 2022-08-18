@@ -9,7 +9,7 @@ function todo() {
     if [ -z "$items" ]
     then err "No active tasks"
     else
-      info "Doing:"
+      title "Doing:"
       debug "$items"
     fi
 
