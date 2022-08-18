@@ -87,7 +87,7 @@ function help() {
     xargs python3 -c '
 import sys,subprocess;
 for x in sys.argv[1:]:
-  subprocess.Popen(["echo ${C_DEBUG}"+x+"$C_RESET"], shell=True)'
+  subprocess.Popen(["echo ${C_INFO}"+x+"$C_RESET"], shell=True)'
 }
 
 # change [directory]
