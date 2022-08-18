@@ -10,6 +10,12 @@ function colors() {
   done;
 }
 
+function color() {
+  style=1 # bold
+  fg=$1
+  bg=$2
+  echo "\033[$style;$fg;$bg"
+}
 
 # custom shell agnostic color aliases
 export C_RESET="\033[0m"
