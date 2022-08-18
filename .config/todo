@@ -32,7 +32,7 @@ function todo() {
     if [ -z "$items" ]
     then warn "No more tasks"
     else
-      info "Backlog:"
+      title "Backlog:"
       debug "$items"
     fi
 
@@ -40,12 +40,12 @@ function todo() {
   elif [ "$1" = "done" ]; then
     items=$(cat $todo_file | grep "^x$div")
     completed=$(wc -l $items)
-    info "Tasks completed:"
+    title "Tasks completed:"
     debug "$completed"
 
   # show all items
   elif [ "$1" = "all" ]; then
-    info "Tasks:"
+    title "Tasks:"
     debug "$(cat $todo_file)"
 
   # show help
