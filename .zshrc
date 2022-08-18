@@ -12,6 +12,7 @@ export PATH=$PATH:/usr/local/bin
 
 . ~/.config/custom
 . ~/.config/todo
+. ~/.config/theme
 
 # personals
 PROJ_DIR="$HOME/Projects"
