@@ -15,7 +15,7 @@ function color() {
   fg="$1"
   bg="$2"
   #echo "\033[$style;$fg;$bg"
-  echo -e "\033\[$(echo $style;$fg;$bg)\mhello world"
+  echo -e "\033\[$(echo ""$style;$fg;$bg"")\mhello world"
 }
 
 # custom shell agnostic color aliases
