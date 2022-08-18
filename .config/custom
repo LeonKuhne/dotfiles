@@ -74,6 +74,11 @@ function go() {
   browse $url
 }
 
+function repeat () {
+  #python3 -c "import (os,sys); [os.system(x) for x in sys.argv[1:]]"
+  echo "hello"
+}
+
 function help() {
   if [ -z "$@" ]; then
     echo "usage: help <script>"
