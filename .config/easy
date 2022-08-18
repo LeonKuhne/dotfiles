@@ -1,2 +1,6 @@
 #!/bin/sh
 # simplify shell scripting syntax
+
+function any() {
+  return true  
+}
