@@ -11,7 +11,6 @@ function color() {
 
 # custom shell agnostic color aliases
 export C_RESET=$(color 0 0)
-
 # copied from linux kernal log levels
 export C_DEBUG=$(color 1 4 0)
 export C_INFO=$(color 1 2 0)
@@ -22,7 +21,17 @@ export C_CRIT=$(color 1 0 6)
 export C_ALERT=$(color 1 0 5)
 export C_EMERG=$(color 1 7 1)
 
-function warn() { echo "$C_DEBUG" && echo $@ && echo "$C_RESET"; }
+# handy helper functions 
+function c_log() { echo -n "$1" && echo ${@:2} && echo -n "$C_RESET"; }
+# same as kernal log levels
+function debug() { c_log "$C_DEBUG" }
+function info() { c_log "$C_INFO" }
+function notice() { c_log "$C_NOTICE" }
+function warn() { c_log "$C_WARN" }
+function err() { c_log "$C_ERR" }
+function crit() { c_log "$C_CRIT" }
+function alert() { c_log "$C_ALERT" }
+function emerg() { c_log "$C_EMERG" }
 
 # list all available color constants
 function COLORS() {
