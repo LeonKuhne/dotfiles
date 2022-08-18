@@ -13,14 +13,14 @@ function color() {
 export C_RESET=$(color 0 0)
 
 # copied from linux kernal log levels
-export C_DEBUG=$(color 1 3 4)
-export C_INFO=$(color 1 3 2)
-export C_NOTICE=$(color 7 3 3)
-export C_WARN=$(color 1 3 6)
-export C_ERR=$(color 1 3 1)
-export C_CRIT=$(color 7 3 6)
-export C_ALERT=$(color 7 3 5)
-export C_EMERG=$(color 7 3 1)
+export C_DEBUG=$(color 1 6 0)
+export C_INFO=$(color 1 2 0)
+export C_NOTICE=$(color 1 0 7)
+export C_WARN=$(color 1 6 0)
+export C_ERR=$(color 1 1 0)
+export C_CRIT=$(color 1 0 6)
+export C_ALERT=$(color 1 0 5)
+export C_EMERG=$(color 1 7 1)
 
 # list all available color constants
 function COLORS() {
