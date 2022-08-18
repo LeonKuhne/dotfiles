@@ -10,10 +10,10 @@ PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 
+. ~/.config/easy
 . ~/.config/custom
 . ~/.config/todo
 . ~/.config/theme
-. ~/.config/easy
 
 # personals
 PROJ_DIR="$HOME/Projects"
