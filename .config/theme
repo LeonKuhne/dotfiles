@@ -3,7 +3,7 @@ function colors() {
   for x in {0..8}; do
     for i in {30..37}; do
       for a in {40..47}; do
-        echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m ";
+        echo -ne "\033[$x;$i;$a""m\\\033[$x;$i;$a""m\033[0;37;40m ";
       done;
       echo;
     done;
@@ -12,12 +12,15 @@ function colors() {
 
 
 # custom shell agnostic color aliases
+export C_RESET="\033[0m"
+
 # copied from linux kernal log levels
-export C_DEBUG="\e[0;34;40m"
-export C_INFO="\e[0;32;40m"
-export C_NOTICE="\e[0;30;42m"
-export C_WARN="\e[0;36;40m"
-export C_ERR="\e[0;35;40m"
-export C_CRIT="\e[0;30;46m"
-export C_ALERT="\e[0;31;40m"
-export C_EMERG="\e[0;37;41m"
+export C_DEBUG="\033[1;34;40m"
+export C_INFO="\033[1;32;40m"
+export C_NOTICE="\033[1;30;42m"
+export C_WARN="\033[1;36;40m"
+export C_ERR="\033[1;35;40m"
+export C_CRIT="\033[1;30;46m"
+export C_ALERT="\033[1;31;40m"
+export C_EMERG="\033[1;37;41m"
+
