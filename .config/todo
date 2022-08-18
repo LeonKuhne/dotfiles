@@ -8,7 +8,9 @@ function todo() {
     items=$(cat $todo_file | grep "^-$div")
     if [ -z "$items" ]
     then err "No active tasks"
-    else info "Doing: \n$items"
+    else
+      info "Doing:"
+      debug "$items"
     fi
 
   # track a new item to do
