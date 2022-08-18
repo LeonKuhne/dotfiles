@@ -84,7 +84,10 @@ function help() {
     grep "^function" |
     sed s/function\ //g |
     sed s/\(\)\ \{//g |
-    xargs python3 -c 'import sys,subprocess; [subprocess.run("echo", x) for x in sys.argv[1:]]'
+    xargs python3 -c '
+import sys,subprocess;
+for x in sys.argv[1:]:
+  subprocess.run(["debug \"{x}\""], shell=True)'
 }
 
 # change [directory]
