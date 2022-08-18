@@ -7,8 +7,8 @@ function todo() {
   if [ -z "$1" ] || [ "$1" = "list" ]; then
     items=$(cat $todo_file | grep "^-$div")
     if [ -z "$items" ]
-    then echo "No active tasks"
-    else echo "Doing: \n$items"
+    then err "No active tasks"
+    else info "Doing: \n$items"
     fi
 
   # track a new item to do
@@ -16,8 +16,8 @@ function todo() {
     if [ ! -z "$2" ]
     then
       echo " $div$2" >> $todo_file
-      echo "Task added"
-    else echo "usage: todo add <description>"
+      info "Task added"
+    else notice "usage: todo add <description>"
     fi
 
   # modify backlog items
@@ -28,24 +28,28 @@ function todo() {
   elif [ "$1" = "more" ]; then
     items=$(cat $todo_file | grep "^ $div")
     if [ -z "$items" ]
-    then echo "No more tasks"
-    else echo "Backlog: \n$items"
+    then warn "No more tasks"
+    else
+      info "Backlog:"
+      debug "$items"
     fi
 
   # show backlog items
   elif [ "$1" = "done" ]; then
     items=$(cat $todo_file | grep "^x$div")
     completed=$(wc -l $items)
-    echo "Tasks completed: $completed"
+    info "Tasks completed:
+    debug "$completed"
 
   # show all items
   elif [ "$1" = "all" ]; then
-    echo "Tasks: \n$(cat $todo_file)"
+    info "Tasks:"
+    debug "$(cat $todo_file)"
 
   # show help
   else
-    echo "usage: todo [command]"
-    echo "to view: add, edit"
-    echo "to update: list, more, done, all"
+    notice "usage: todo [command]"
+    notice "to view: add, edit"
+    notice "to update: list, more, done, all"
   fi
 }
