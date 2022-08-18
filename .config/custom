@@ -79,6 +79,7 @@ function help() {
     echo "usage: help <script>"
     return
   fi
+  debug
   cat "$@" | grep "^function" | sed s/function\ //g | sed s/\(\)\ \{//g
 }
 
