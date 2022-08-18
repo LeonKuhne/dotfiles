@@ -3,10 +3,10 @@ self="$0"
 
 # construct a color
 function color() {
-  style="$1;" # 0-8
-  notnull "$2" set fg="$(($2+30));" # 0-7
-  notnull "$3" set bg="$(($3+40))" # 0-7
-  echo -en "\033[$style$fg${bg}m"
+  c_style="$1;" # 0-8
+  notnull "$2" export c_fg="$(($2+30));" # 0-7
+  notnull "$3" export c_bg="$(($3+40))" # 0-7
+  echo -en "\033[$c_style$c_fg${c_bg}m"
 }
 
 # custom shell agnostic color aliases
@@ -41,8 +41,8 @@ print(", ".join(text))'
 
 # print out your color palet
 function colors() {
-  for fg in {0..7}; do
-    for bg in {0..7}; do
+  for bg in {7..0}; do
+    for fg in {0..7}; do
       for style in {0..8}; do
         c=$(color $style $fg $bg)
         echo -ne "$c($style,$fg,$bg)$C_RESET"
