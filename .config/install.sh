@@ -54,6 +54,9 @@ git clone https://github.com/rust-lang/rust.vim ~/.vim/pack/plugins/start/rust.v
 brew install michaeleisel/zld/zld
 brew install rust-analyzer
 
+# extras
+brew install plantuml
+
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
 # must manually add ssh key to github
