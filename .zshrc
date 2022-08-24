@@ -9,6 +9,7 @@
 USE_POWERLINE="true"
 
 # Source manjaro-zsh-configuration
+. $HOME/.config/easy
 . $HOME/.config/custom
 . $HOME/.config/todo
 . $HOME/.config/theme
