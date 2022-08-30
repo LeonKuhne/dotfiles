@@ -22,6 +22,16 @@ function todo() {
     else notice "usage: todo add <description>"
     fi
 
+  # track a new item as started
+  # TODO consolidate this with add, i'm lazy rn
+  elif [ "$1" = "start" ]; then
+    if [ ! -z "$2" ]
+    then
+      echo "-$div$2" >> $todo_file
+      info "Task added"
+    else notice "usage: todo start <description>"
+    fi
+
   # modify backlog items
   elif [ "$1" = "edit" ]; then
     vim $todo_file
