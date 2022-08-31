@@ -11,7 +11,7 @@ function color() {
 
 # custom shell agnostic color aliases
 export C_RESET=$(color 0 0)
-export C_TITLE=$(color 4 3 0)
+export C_TITLE=$(color 1 0 2)
 # copied from linux kernal log levels
 export C_DEBUG=$(color 1 4 0)
 export C_INFO=$(color 1 2 0)
