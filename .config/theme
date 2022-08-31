@@ -71,11 +71,11 @@ import sys, os
 text = []
 for color in sys.argv[1:]:
   if color:
+    bullet = os.environ[color]
     name = color.replace("B_", "")
-    ascii = os.environ[color]
-    str = f"{name}: {ascii}"
+    str = f"{bullet} {name}"
     text.append(str)
-print(", ".join(text))'
+print("\n".join(text))'
 }
 
 # print out your color palet
