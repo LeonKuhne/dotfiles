@@ -9,6 +9,14 @@ function color() {
   echo -en "\033[$c_style$c_fg${c_bg}m"
 }
 
+# custom bullet points
+export B_ARROW=→
+export B_TRIANGLE=►
+export B_CIRCLE=•
+export B_EMPTY=○
+export B_BULLET=⁍
+export B_SMALL=◦
+
 # custom shell agnostic color aliases
 export C_RESET=$(color 0 0)
 export C_TITLE=$(color 1 0 2)
@@ -38,6 +46,24 @@ function emerg() { c_log "$C_EMERG" $@ }
 # list all available color constants
 function COLORS() {
   grep "^export C_" $self |
+    sed "s/^export\ //g" |
+    sed "s/=.*$//g" |
+    xargs python3 -c '
+import sys, os
+reset = "\033[0m" 
+text = []
+for color in sys.argv[1:]:
+  if color:
+    code = os.environ[color]
+    color = color.replace("C_", "")
+    str = f"{code}{color}{reset}"
+    text.append(str)
+print(", ".join(text))'
+}
+
+# list all available bullet constants
+function BULLETS() {
+  grep "^export B_" $self |
     sed "s/^export\ //g" |
     sed "s/=.*$//g" |
     xargs python3 -c '
