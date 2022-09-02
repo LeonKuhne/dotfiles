@@ -22,7 +22,7 @@ autocmd BufRead,BufNewFile *.rs set foldmethod=syntax
 autocmd BufRead,BufNewFile *.py,*.rs setlocal tabstop=4 shiftwidth=2 softtabstop=2
 autocmd BufRead,BufNewFile *.tsx setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
-let g:ale_linters = { 'rust': ['analyzer'] }
+let g:ale_linters = { 'rust': ['analyzer'], 'svelte': ['analyzer'] }
 let g:ale_fixers = { 'rust': ['rustfmt', 'trim_whitespace', 'remove_trailing_lines'] }
 
 " autocmd BufRead,BufNewFile *.htm,*.html,*.vue setlocal tabstop=4 shiftwidth=4 softtabstop=4
