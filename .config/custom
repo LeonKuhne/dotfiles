@@ -42,7 +42,7 @@ function browse() {
 }
 
 # search the internet
-function go() {
+function goo() {
   url=$(echo "$@" | jq -sRr @uri)
   url="https://www.google.com/search?q=$url"
   browse $url
