@@ -27,7 +27,7 @@ alias ch="cc ~"
 alias x="exit"
 alias q="exit"
 source $PROJ/Spotlight-Shortcuts/config.sh
-alias s=". $PROJ/$SPOTLIGHT_SEARCH_DIR/edit.sh"
+alias s=". $PROJ$SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
 
