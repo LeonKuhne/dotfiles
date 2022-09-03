@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "pug": "^3.0.2",
+    "svelte-preprocess": "^4.10.7"
+  }
+}
