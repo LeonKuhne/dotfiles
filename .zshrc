@@ -10,8 +10,6 @@ PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 
-# Vunderbar.ai
-source ~/.config/VunderbarAI/*.sh
 #. ~/.config/easy
 #. ~/.config/todo
 #. ~/.config/theme
