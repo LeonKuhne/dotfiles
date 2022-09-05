@@ -13,11 +13,8 @@ export PATH=$PATH:/usr/local/bin
 # Vunderbar.ai
 for f in ~/.config/VunderbarAI/*.sh; do source $f; done
 
-#. ~/.config/easy
-#. ~/.config/todo
-#. ~/.config/theme
-
 # Handy
+. ~/.config/todo
 . ~/.config/custom
 
 # personals
