@@ -10,10 +10,14 @@ PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 
-. ~/.config/easy
+# Vunderbar.ai
+source ~/.config/VunderbarAI/*.sh
+#. ~/.config/easy
+#. ~/.config/todo
+#. ~/.config/theme
+
+# Handy
 . ~/.config/custom
-. ~/.config/todo
-. ~/.config/theme
 
 # personals
 alias python="python3"
