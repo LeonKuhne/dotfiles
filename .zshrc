@@ -38,3 +38,6 @@ mute rmdir Pictures Movies Music
 mute backup "autosave" # backup config 
 back # start at last working directory
 rand_prompt # with random color
+
+# Vunderbar.ai
+for f in ~/.config/VunderbarAI/*.sh; do source $f; done
