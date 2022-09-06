@@ -36,7 +36,7 @@ alias cc="clear && c $@"
 alias n="nav $@"
 alias p='n $PROJECTS'
 alias html='cp ~/.config/template.html ./index.html'
-alias v='c ~/Vunderbar'
+alias v='cc ~/Vunderbar'
 
 function lwd {
   export USE_LWD=$(cat ~/.lwdenabled)
