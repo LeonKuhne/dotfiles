@@ -28,7 +28,6 @@ export RAFT_MANAGED_PATH=/mnt/big/SteamLibrary/steamapps/common/Raft/Raft_Data/M
 export RAFT_MODLOADER_BIN=/mnt/win/Users/leonk/AppData/Roaming/RaftModLoader/binaries
 
 alias x='exit'
-alias v='nvim'
 alias vim='nvim'
 alias ls='ls --color=auto'
 alias t='c $TOOLS'
@@ -37,6 +36,7 @@ alias cc="clear && c $@"
 alias n="nav $@"
 alias p='n $PROJECTS'
 alias html='cp ~/.config/template.html ./index.html'
+alias v='c ~/Work'
 
 function lwd {
   export USE_LWD=$(cat ~/.lwdenabled)
