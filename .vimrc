@@ -13,7 +13,8 @@ set foldmethod=indent
 set foldenable
 
 let g:rainbow_active = 1
-
+let g:go_highlight_variable_declarations = 1
+let g:go_highlight_variable_assignments = 1
 colorscheme leon-dark-256
 
 autocmd FileType typescript setlocal formatprg=prettier\ --parser\ typescript
