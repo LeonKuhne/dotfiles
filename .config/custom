@@ -95,8 +95,8 @@ function note() {
 }
 
 function post() {
-  curl -X POST "$1" \
-    -H "Accept: application/json" \
-    -H "Content-Type: application/json" \
-    -d "$2" 
+  curl \
+    --location --request POST "$1" \
+    --header 'Content-Type: application/json' \
+    --data-raw "$2"
 }
