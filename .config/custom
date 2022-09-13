@@ -94,3 +94,8 @@ function note() {
   tail -n 5 .notes
 }
 
+function post() {
+  curl -X POST "$1"
+   -H "Content-Type: application/json"
+   -d "$2" 
+}
