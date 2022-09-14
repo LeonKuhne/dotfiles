@@ -25,6 +25,8 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd BufRead,BufNewFile *.rs set foldmethod=syntax
 autocmd BufRead,BufNewFile *.py,*.rs setlocal tabstop=4 shiftwidth=2 softtabstop=2
 autocmd BufRead,BufNewFile *.tsx setlocal tabstop=2 shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile *.scss set filetype=scss.css
+autocmd BufRead,BufNewFile *.sass set filetype=sass.css
 
 let g:ale_linters = { 'rust': ['analyzer'] }
 let g:ale_fixers = { 'rust': ['rustfmt', 'trim_whitespace', 'remove_trailing_lines'] }
