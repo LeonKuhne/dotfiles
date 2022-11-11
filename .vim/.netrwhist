@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/x/Projects/iPlug2/Examples/IPlugFaustDSP'
 let g:netrw_dirhist_8='/Users/x/Projects/iPlug2/Projects/todo'
 let g:netrw_dirhist_7='/Users/x/Vunderbar/Vunderbar.ai'
 let g:netrw_dirhist_6='/Users/x/.config'
