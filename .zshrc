@@ -10,9 +10,6 @@ PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 
-# Vunderbar.ai
-#for f in ~/.config/VunderbarAI/*.sh; do source $f; done
-
 # Handy
 . ~/.config/todo
 . ~/.config/custom
@@ -41,4 +38,5 @@ back # start at last working directory
 rand_prompt # with random color
 
 # Vunderbar.ai
-for f in ~/.config/VunderbarAI/*.sh; do source $f; done
+#for f in ~/.config/VunderbarAI/*.sh; do source $f; done
+
