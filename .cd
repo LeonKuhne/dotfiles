@@ -1,3 +1,4 @@
+clear
 notice -n "Gracias muchachacha, you're home early!"
 alert -n " "
 help .cd | indent "x "
