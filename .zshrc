@@ -31,11 +31,11 @@ alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
 
+# github.com:leonkuhne/scripts
+for f in ~/.config/scripts/*.sh; do source $f; done
+
 # setup
 mute rmdir Pictures Movies Music
 mute backup "autosave" # backup config 
 back # start at last working directory
 rand_prompt # with random color
-
-# github.com:leonkuhne/scripts
-for f in ~/.config/scripts/*.sh; do source $f; done
