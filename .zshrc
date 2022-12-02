@@ -40,3 +40,6 @@ rand_prompt # with random color
 # Vunderbar.ai
 #for f in ~/.config/VunderbarAI/*.sh; do source $f; done
 
+
+# github.com:leonkuhne/scripts
+for f in ~/.config/scripts/*.sh; do source $f; done
