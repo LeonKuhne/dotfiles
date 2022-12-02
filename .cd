@@ -1,5 +1,4 @@
-notice "Gracias muchachacha, you're home!"
-
+notice -n "Gracias muchachacha, you're home!"
+alert -n " "
 help .cd | indent "x "
-
 todo all
