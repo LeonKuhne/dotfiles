@@ -1,4 +1,4 @@
-notice "Gracias muchachacha"
+notice "Gracias muchachacha, you're home!"
 
 help .cd | indent "x "
 
