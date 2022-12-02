@@ -29,7 +29,7 @@
 .cargo
 .IdentityService
 .config/lwd
-.swp
+*.swp
 .Trash
 
 !**/*.conf

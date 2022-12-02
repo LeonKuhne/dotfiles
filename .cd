@@ -1,3 +1,5 @@
 notice "Gracias muchachacha"
 
 help .cd | indent "x "
+
+todo all
