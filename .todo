@@ -2,8 +2,7 @@
 x| move personal DevOps to github repo /scripts
 x| determine github projects to put on resume 
 x| window | rework for erin
- | resume gen | clean up resume
- | resume gen | create filtering
+x| resume gen | create filtering
  | resume gen | add projects
  | resume gen | plan next steps
 ...
