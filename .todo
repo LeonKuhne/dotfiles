@@ -1,9 +1,18 @@
 12/02/22 -- organize my stressors
-x| move personal DevOps scripts (to git@github.com:leonkuhne/scripts)
--| categorize github projects for resume as worthy, incomplete, unworthy
+x| move personal DevOps to github repo /scripts
+x| determine github projects to put on resume 
+x| window | rework for erin
+ | resume gen | clean up resume
+ | resume gen | create filtering
+ | resume gen | add projects
+ | resume gen | plan next steps
+...
+ | find a job | apply using resume gen
+
+12/05/22 -- once resume gen is done
  | leonk.dev | determine 6 projects to showcase 
+- 1) resume gen, ?) f buddy, ?) idorg, ...
  | leonk.dev | design portfolio 
- | synthrack model; add chrome bezel and leather texture
- | create filtering for resume generator
- | window epic; personalize story, rethink lyrics, combine w painting (try 143.flp)
- | synthrack frontend; split model instead of stretching
+ | window | try using 143.flp
+ | synthrack | add chrome bezel & leather texture to model
+ | synthrack | split model instead of stretching
