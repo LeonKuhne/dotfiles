@@ -25,11 +25,11 @@ function fill() {
 function indent() {
   if [ ! -z "$1" ]
   then prefix="$1"
-  else prefix=""
+  else prefix="> "
   fi
 
   while read input; do
-    echo "$prefix $input";
+    echo "${prefix}${input}";
   done
 }
 
