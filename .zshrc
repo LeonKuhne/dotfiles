@@ -9,7 +9,7 @@ EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
-export LIBTORCH='/url/local/Cellar/pytorch/1.13.1'
+export LIBTORCH='/usr/local/Cellar/pytorch/1.13.1'
 export LD_LIBRARY_PATH=$LIBTORCH:$LD_LIBRARY_PATH
 
 # Handy
