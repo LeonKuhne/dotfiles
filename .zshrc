@@ -16,7 +16,7 @@ export PATH=$PATH:/usr/local/bin
 
 # personals
 alias python="python3"
-#alias pip="pip3"
+alias pip="pip3"
 alias ls="ls --color" 
 alias cc="clear && c $@" # clear and change
 alias n="nav $@" # ranger navigation
