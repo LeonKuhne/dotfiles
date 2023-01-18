@@ -57,6 +57,7 @@ brew install rust-analyzer
 # extras
 brew install plantuml
 brew install fswatch
+brew install imagemagick
 
 # must reboot for programmer dvorak
 echo "reboot to finish installation"
