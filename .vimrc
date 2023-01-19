@@ -11,6 +11,8 @@ set number
 set hlsearch 
 set foldmethod=indent
 set foldenable
+set autoindent
+set smartindent
 
 let g:rainbow_active = 1
 let g:go_highlight_variable_declarations = 1
