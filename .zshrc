@@ -9,6 +9,7 @@ EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
+export JAVA_HOME="$HOME/OpenJDK"
 
 # Handy
 . ~/.config/todo
