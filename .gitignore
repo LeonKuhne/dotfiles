@@ -36,5 +36,4 @@
 !**/config
 !**/*.json
 !**/*.fish
-
-
+!Projects/.cd
