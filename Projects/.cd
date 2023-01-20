@@ -1,0 +1,19 @@
+clear
+notice "PROJECTS | $PROJ | \$PROJ"
+echo
+
+crit "commands"
+warn "todo" | indent "$C_ERR- "
+warn "notes" | indent "$C_ERR- "
+echo
+
+alert "notes"
+notes | head -n 5 | indent "$C_ALERT|$C_ERR "
+echo
+
+alert "todo"
+todo | head -n 5
+echo
+
+title recent
+ls -t1 | head -n 5 | indent "$C_ERR./"
