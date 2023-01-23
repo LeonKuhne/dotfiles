@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/Users/x/Projects/fast-nav'
 let g:netrw_dirhist_7='/Users/x/Projects/mine/.git'
 let g:netrw_dirhist_6='/Users/x/Projects/AI/erin/sprite'
 let g:netrw_dirhist_5='/Users/x/Projects/Resume-Builder/scripts/build'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_2='/Users/x/Projects/iPlug2/Projects/V01D/V01D.xcworkspace/x
 let g:netrw_dirhist_1='/Users/x/Projects/iPlug2/Projects/V01D/V01D.xcworkspace/xcuserdata'
 let g:netrw_dirhist_0='/Users/x/Projects/iPlug2/Projects/V01D/V01D.xcworkspace'
 let g:netrw_dirhist_9='/Users/x/Projects/iPlug2/Examples/IPlugFaustDSP'
-let g:netrw_dirhist_8='/Users/x/Projects/iPlug2/Projects/todo'
