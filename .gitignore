@@ -4,7 +4,7 @@
 
 !.config/*
 !.vim/*
-!.keys/*
+.keys/*
 
 .gnupg/*
 .java/*
