@@ -5,6 +5,7 @@ echo
 crit "commands"
 warn "todo" | indent "$C_ERR- "
 warn "notes" | indent "$C_ERR- "
+help .cd | indent "$C_ERR- "
 echo
 
 alert "notes"
@@ -17,3 +18,7 @@ echo
 
 title recent
 ls -t1 | head -n 5 | indent "$C_ERR./"
+
+function resume() {
+  cat .projects
+}
