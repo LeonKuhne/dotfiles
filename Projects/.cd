@@ -19,6 +19,6 @@ echo
 title recent
 ls -t1 | head -n 5 | indent "$C_ERR./"
 
-function resume() {
+function list() {
   cat .projects
 }
