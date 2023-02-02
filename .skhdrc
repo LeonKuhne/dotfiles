@@ -25,3 +25,18 @@ cmd + shift - left : yabai -m window --warp west
 cmd - w : yabai -m window --close && yabai -m window --focus recent
 
 # disable keyboard
+# Create a variable to keep track of the keyboard state
+var keyboard_enabled=1
+
+# Disable keyboard bind
+alt + cmd + d 
+	# Check if the keyboard is enabled or not
+	if $keyboard_enabled; then
+		# If the keyboard is enabled, disable it
+		shell "hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000003A}]}'"
+		set keyboard_enabled 0
+	else
+		# If the keyboard is disabled, enable it
+		shell "hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70000003A,"HIDKeyboardModifierMappingDst":0x700000039}]}'"
+		set keyboard_enabled 1
+	end
