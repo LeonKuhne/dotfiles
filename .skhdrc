@@ -23,3 +23,6 @@ cmd + shift - right : yabai -m window --warp east
 cmd + shift - left : yabai -m window --warp west
 # close
 cmd - w : yabai -m window --close && yabai -m window --focus recent
+
+# disable keyboard
+ctrl + alt + cmd + k - system "hidutil property --set '{"UserKeyMapping":[]}'"
