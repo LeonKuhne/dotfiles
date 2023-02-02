@@ -28,9 +28,6 @@ cmd - w : yabai -m window --close && yabai -m window --focus recent
 # Create a variable to keep track of the keyboard state
 var keyboard_enabled=1
 
-
-var keyboard_enabled=1
-
 # Disable keyboard bind
 alt + cmd + l
 	# Ternary operator to toggle the keyboard state
