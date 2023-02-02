@@ -23,15 +23,3 @@ cmd + shift - right : yabai -m window --warp east
 cmd + shift - left : yabai -m window --warp west
 # close
 cmd - w : yabai -m window --close && yabai -m window --focus recent
-
-# disable keyboard
-# Create a variable to keep track of the keyboard state
-var keyboard_enabled=1
-
-# Disable keyboard bind
-alt + cmd + l
-	# Ternary operator to toggle the keyboard state
-	shell "hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x700000039,"HIDKeyboardModifierMappingDst":0x70000003A}]}'" set keyboard_enabled 0
-	shell "hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":0x70000003A,"HIDKeyboardModifierMappingDst":0x700000039}]}'" set keyboard_enabled 1
-	shell "hidutil property --set '{"UserKeyMapping":[{"HIDKeyboardModifierMappingSrc":$($keyboard_enabled?0x700000039:0x70000003A),"HIDKeyboardModifierMappingDst":$($keyboard_enabled?0x70000003A:0x700000039)}]}'"
-	set keyboard_enabled $($keyboard_enabled?0:1)
