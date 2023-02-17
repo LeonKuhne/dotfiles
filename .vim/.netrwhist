@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/x/Projects/AI/diffusers-rs/scripts'
 let g:netrw_dirhist_2='/Users/x/Projects/orbb/model'
 let g:netrw_dirhist_1='/Users/x/Projects/CaveGenerator/src'
 let g:netrw_dirhist_0='/Users/x/.config/kitty'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_7='/Users/x/Projects/mine/.git'
 let g:netrw_dirhist_6='/Users/x/Projects/AI/erin/sprite'
 let g:netrw_dirhist_5='/Users/x/Projects/Resume-Builder/scripts/build'
 let g:netrw_dirhist_4='/Users/x/Projects/iPlug2/Projects'
-let g:netrw_dirhist_3='/Users/x/Projects/iPlug2/Projects/.template'
