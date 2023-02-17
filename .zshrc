@@ -35,7 +35,7 @@ alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
 alias pyro="~/.config/pyro/pyro.sh"
-alias w="cc ~/$WORK"
+alias w="cc $WORK"
 
 # github.com:leonkuhne/scripts
 for f in ~/.config/scripts/*.sh; do source $f; done
