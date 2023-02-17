@@ -7,6 +7,7 @@ BG_PATH="~/.config/bg.png"
 LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
+WORK="$HOME/Work"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 export JAVA_HOME="$(/usr/libexec/java_home)"
@@ -34,6 +35,7 @@ alias s=". $SPOTLIGHT_SEARCH_DIR/edit.sh"
 alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
 alias pyro="~/.config/pyro/pyro.sh"
+alias w="cc ~/$WORK"
 
 # github.com:leonkuhne/scripts
 for f in ~/.config/scripts/*.sh; do source $f; done
