@@ -8,6 +8,7 @@ LC_CTYPE=en_US.utf8
 EDITOR=/usr/bin/vim
 PROJ="$HOME/Projects"
 WORK="$HOME/Work"
+LIFE="$HOME/Life"
 BROWSER=/Applications/Firefox\ Developer\ Edition.app
 export PATH=$PATH:/usr/local/bin
 export JAVA_HOME="$(/usr/libexec/java_home)"
@@ -36,6 +37,7 @@ alias html="cp ~/.config/template.html new.html"
 alias edit="ranger src"
 alias pyro="~/.config/pyro/pyro.sh"
 alias w="cc $WORK"
+alias l="cc $LIFE"
 
 # github.com:leonkuhne/scripts
 for f in ~/.config/scripts/*.sh; do source $f; done
