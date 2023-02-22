@@ -17,7 +17,7 @@ todo | head -n 5
 echo
 
 title recent
-ls -t1 | head -n 5 | indent "$C_ERR./"
+ls -t1 | head -n 10 | indent "$C_ERR./"
 
 function list() {
   cat .projects
