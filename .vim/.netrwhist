@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/x/Projects/waves.leonk.dev/ideas'
 let g:netrw_dirhist_4='/Users/x/Projects/AI/diffusers-rs/examples/stable-diffusion-inpaint'
 let g:netrw_dirhist_3='/Users/x/Projects/AI/diffusers-rs/scripts'
 let g:netrw_dirhist_2='/Users/x/Projects/orbb/model'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_9='/Users/x/Projects/AI/diffusers-rs/samples'
 let g:netrw_dirhist_8='/Users/x/Projects/fast-nav'
 let g:netrw_dirhist_7='/Users/x/Projects/mine/.git'
 let g:netrw_dirhist_6='/Users/x/Projects/AI/erin/sprite'
-let g:netrw_dirhist_5='/Users/x/Projects/Resume-Builder/scripts/build'
