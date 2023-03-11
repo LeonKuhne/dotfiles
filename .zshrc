@@ -16,7 +16,6 @@ export PATH=$PATH:$JAVA_HOME/bin
 
 # Handy
 . ~/.config/todo
-. ~/.config/custom
 
 # personals
 alias python="python3"
