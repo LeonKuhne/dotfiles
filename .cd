@@ -1,0 +1,33 @@
+#!/bin/bash
+
+title 'notes'
+debug 'add auto-aligning (particle sim) to move unselected nodes in f project'
+debug 'build calendar to track habits using f project'
+debug '
+time, description, estimate, duration, completed,
+11:30, fix f project, 1hr, 15min, false,
+11:45, fix nodel project, 30min, 30min, false, 
+12:15, research proper npm packaging, 15min, 30min, true,
+12:45, replace jsplumb with leader-line, 15min, 30min, false,
+1:15, webpack the project, 30min, 2.5hrs, false, 
+3:45, keep trying, -, 3.5hrs, false, 
+7:15, take a break, 1hr, 17hrs, true,
+12:15, study security+ quizlet, -, 30min, true,
+12:45, take a quick break, 15min, 15min, true, 
+1:00, find bugs in node, 1hr, 30min, true,
+1:30, remove f project errors, 1hr, 3hrs, true,
+4:30, take a break, 30min, 15min, true,
+4:45, eat snack, -, 45min, true,
+5:30, remove rainworld errors, 1hr, 1hr, true,
+6:30, watch psych and pet cat, 3.5hrs, 2hrs, true,
+8:30, raincraft create clouds, 1hr, 1hr, false,
+9:30, get coffee, 30min, 15min, true,
+9:45, raincraft fix particle system, 30min, 8hrs, false, 
+5:45, watch psych love cat & smoke, 2hrs, 8hrs, true
+10:45, play with raincraft attract equation, 15min, 4.5hrs, true
+3:15, fix dotjs grid, 30min, 2.75hrs, true
+11:30, build & load custom vst3 plugin, 30min 
+
+????, get f project working
+????, get raincraft clouds working, 5hrs
+'

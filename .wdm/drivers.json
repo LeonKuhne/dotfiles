@@ -1,0 +1,10 @@
+{
+    "linux64_geckodriver_latest_for_": {
+        "timestamp": "21/04/2023",
+        "binary_path": "/home/x/.wdm/drivers/geckodriver/linux64/v0.33.0/geckodriver"
+    },
+    "linux64_geckodriver_latest_for_112.0": {
+        "timestamp": "21/04/2023",
+        "binary_path": "/home/x/.wdm/drivers/geckodriver/linux64/v0.33.0/geckodriver"
+    }
+}
