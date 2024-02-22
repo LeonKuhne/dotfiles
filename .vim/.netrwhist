@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =7
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/x/.config/scripts'
 let g:netrw_dirhist_7='/home/x/aimg'
 let g:netrw_dirhist_6='/home/x/info.leonk.dev/js'
 let g:netrw_dirhist_5='/home/x/cave/sim2D/src'

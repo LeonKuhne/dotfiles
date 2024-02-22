@@ -4,12 +4,12 @@ for f in ~/.config/scripts/*.sh; do source $f; done
 # display
 export DISPLAY=:0
 export LC_ALL=C
-export JAVA_HOME='/usr/lib/jvm/java-21-openjdk'
-export PATH=$JAVA_HOME/bin:$PATH
-export ANDROID_HOME=/opt/android-sdk/
-export ANDROID_SDK=/opt/android-sdk/cmdline-tools
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
-export PATH=$ANDROID_HOME/cmdline-tools/tools/bin:$PATH
+export ANDROID_HOME=/opt/android-sdk
+export JAVA_HOME=/usr/lib/jvm/java-21-openjdk
+export PATH=/usr/lib/jvm/java-21-openjdk/bin:$PATH
+export ANDROID_SDK_ROOT=${ANDROID_HOME}
+export PATH=${ANDROID_HOME}/cmdline-tools/bin:${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${PATH}
+
 
 # color overrides
 export C_TITLE=$(color 7 0 6)

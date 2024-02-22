@@ -1,0 +1,3 @@
+[filesystem "N/A|21|/dev/sdc"]
+	timestampResolution = 7923 nanoseconds
+	minRacyThreshold = 17459 microseconds
